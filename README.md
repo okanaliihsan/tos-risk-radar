@@ -1,5 +1,7 @@
 # ToS Risk Radar
 
+> 🎬 **Demo videosu (36 sn):** https://youtu.be/H8Cobe8J4MM
+
 Kullanım koşulları, gizlilik politikası veya abonelik şartları sayfasında çalışan bir Chrome uzantısı. Sayfadaki metni [page-agent](https://github.com/alibaba/page-agent) ile okur, kendi LLM anahtarınızla analiz eder ve **her iddiası sayfadaki metinden birebir alıntıyla doğrulanmış** bir risk raporu üretir: risk skoru, riskli maddeler, sade Türkçe açıklama ve orijinal alıntı.
 
 > **Hukuki tavsiye değildir.** Bu ifade popup'ta, ayarlar sayfasında ve her raporun en üstünde sabit olarak görünür.
