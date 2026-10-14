@@ -1,0 +1,213 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Facebook",
+ "title": "Facebook Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:32.225Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 86,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S15",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any ip content that you post on or in connection with facebook",
+   "context": "for content that is covered by intellectual property rights, like photos and videos (ip content), you specifically give us the following permission, subject to your privacy and application settings: you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any ip content that you post on or in connection with facebook (ip license).",
+   "explanationTr": "Paylaştığınız içerikler için Facebook'a dünya çapında, ücretsiz ve alt lisanslanabilir geniş bir kullanım hakkı vermiş olursunuz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S87",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "you will resolve any claim, cause of action or dispute (claim) you have with us arising out of or relating to this statement or facebook exclusively in the u.s. district court for the northern district of california or a state court located in san mateo county",
+   "context": "you will resolve any claim, cause of action or dispute (claim) you have with us arising out of or relating to this statement or facebook exclusively in the u.s. district court for the northern district of california or a state court located in san mateo county, and you agree to submit to the personal jurisdiction of such courts for the purpose of litigating all such claims.",
+   "explanationTr": "Şirketle yaşayacağınız anlaşmazlıklar için belirli bir yabancı mahkemede dava açmanız gerekir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S99",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "our aggregate liability arising out of this statement or facebook will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months.",
+   "context": "our aggregate liability arising out of this statement or facebook will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months.",
+   "explanationTr": "Şirketin size karşı olası sorumluluğu çok düşük bir tutarla sınırlandırılmıştır.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S89",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "you will indemnify and hold us harmless from and against all damages, losses, and expenses of any kind (including reasonable legal fees and costs) related to such claim.",
+   "context": "if anyone brings a claim against us related to your actions, content or information on facebook, you will indemnify and hold us harmless from and against all damages, losses, and expenses of any kind (including reasonable legal fees and costs) related to such claim.",
+   "explanationTr": "Eylemleriniz nedeniyle şirketin uğrayacağı zararları ve masrafları karşılamayı kabul edersiniz.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S88",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "the laws of the state of california will govern this statement, as well as any claim that might arise between you and us, without regard to conflict of law provisions.",
+   "context": "the laws of the state of california will govern this statement, as well as any claim that might arise between you and us, without regard to conflict of law provisions.",
+   "explanationTr": "Bu sözleşmeden doğan uyuşmazlıklarda yerel yasalarınız yerine yabancı bir eyalet yasası uygulanır.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S82",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "your continued use of the facebook services, following notice of the changes to our terms, policies or guidelines, constitutes your acceptance of our amended terms",
+   "context": "your continued use of the facebook services, following notice of the changes to our terms, policies or guidelines, constitutes your acceptance of our amended terms, policies or guidelines.",
+   "explanationTr": "Şartlarda yapılan değişikliklerden sonra hizmeti kullanmaya devam etmeniz, yeni kuralları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S90",
+   "category": "liability_limitation",
+   "text": "although we provide rules for user conduct, we do not control or direct users ' actions on facebook and are not responsible for the content or information users transmit or share on facebook."
+  },
+  {
+   "segmentId": "S91",
+   "category": "liability_limitation",
+   "text": "we are not responsible for any offensive, inappropriate, obscene, unlawful or otherwise objectionable content or information you may encounter on facebook."
+  },
+  {
+   "segmentId": "S92",
+   "category": "liability_limitation",
+   "text": "we are not responsible for the conduct, whether online or offline, of any user of facebook."
+  },
+  {
+   "segmentId": "S96",
+   "category": "liability_limitation",
+   "text": "facebook is not responsible for the actions, content, information, or data of third parties, and you release us, our directors, officers, employees, and agents from any claims and damages, known and unknown, arising out of or in any way connected with any claim you have against any such third parties."
+  },
+  {
+   "segmentId": "S98",
+   "category": "liability_limitation",
+   "text": "we will not be liable to you for any lost profits or other consequential, special, indirect, or incidental damages arising out of or in connection with this statement or facebook, even if we have been advised of the possibility of such damages."
+  },
+  {
+   "segmentId": "S100",
+   "category": "liability_limitation",
+   "text": "applicable law may not allow the limitation or exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you."
+  },
+  {
+   "segmentId": "S71",
+   "category": "tracking_profiling",
+   "text": "this means, for example, that you permit a business or other entity to pay us to display your name and/or profile picture with your content or information, without any compensation to you."
+  },
+  {
+   "segmentId": "S7",
+   "category": "contract_by_using",
+   "text": "by using or accessing the facebook services, you agree to this statement, as updated from time to time in accordance with section 13 below."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 146,
+  "segmentsAnalyzed": 146,
+  "charsTotal": 20614,
+  "charsAnalyzed": 20614,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 2
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 9 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S15\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any ip content that you post on or in connection with facebook\",\n      \"explanation_tr\": \"Paylaştığınız içerikler için Facebook'a dünya çapında, ücretsiz ve alt lisanslanabilir geniş bir kullanım hakkı vermiş olursunuz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S82\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"your continued use of the facebook services, following notice of the changes to our terms, policies or guidelines, constitutes your acceptance of our amended terms\",\n      \"explanation_tr\": \"Şartlarda yapılan değişikliklerden sonra hizmeti kullanmaya devam etmeniz, yeni kuralları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S87\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"you will resolve any claim, cause of action or dispute (claim) you have with us arising out of or relating to this statement or facebook exclusively in the u.s. district court for the northern district of california or a state court located in san mateo county\",\n      \"explanation_tr\": \"Şirketle yaşayacağınız anlaşmazlıklar için belirli bir yabancı mahkemede dava açmanız gerekir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S88\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"the laws of the state of california will govern this statement, as well as any claim that might arise between you and us, without regard to conflict of law provisions.\",\n      \"explanation_tr\": \"Bu sözleşmeden doğan uyuşmazlıklarda yerel yasalarınız yerine yabancı bir eyalet yasası uygulanır.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S89\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"you will indemnify and hold us harmless from and against all damages, losses, and expenses of any kind (including reasonable legal fees and costs) related to such claim.\",\n      \"explanation_tr\": \"Eylemleriniz nedeniyle şirketin uğrayacağı zararları ve masrafları karşılamayı kabul edersiniz.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S99\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"our aggregate liability arising out of this statement or facebook will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months.\",\n      \"explanation_tr\": \"Şirketin size karşı olası sorumluluğu çok düşük bir tutarla sınırlandırılmıştır.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 773,
+    "prompt_tokens": 5589,
+    "total_tokens": 6362
+   },
+   "durationMs": 2820
+  },
+  {
+   "chunk": 1,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 32,
+    "prompt_tokens": 1411,
+    "total_tokens": 1443
+   },
+   "durationMs": 1373
+  }
+ ]
+}

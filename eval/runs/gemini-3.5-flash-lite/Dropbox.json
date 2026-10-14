@@ -1,0 +1,199 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Dropbox",
+ "title": "Dropbox Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:13.848Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 72,
+  "band": "high",
+  "bandLabel": "Yüksek",
+  "breakdown": [
+   {
+    "category": "arbitration",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "price_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "low",
+    "count": 1,
+    "points": 6
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S74",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "dropbox, its affiliates, suppliers or distributors won't be liable for: i) any indirect, special, incidental, punitive, exemplary or consequential damages",
+   "context": "in countries where exclusions or limitations of liability are allowed, dropbox, its affiliates, suppliers or distributors won't be liable for: i) any indirect, special, incidental, punitive, exemplary or consequential damages, or ii) any loss of use, data, business, or profits, regardless of legal theory.",
+   "explanationTr": "Şirket, hizmetin kullanımından kaynaklanan dolaylı veya arzi zararlardan sorumlu tutulamaz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S89",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "you and dropbox agree to resolve any claims relating to these terms or the services through final and binding arbitration",
+   "context": "you and dropbox agree to resolve any claims relating to these terms or the services through final and binding arbitration by a single arbitrator, except as set forth under exceptions to agreement to arbitrate below.",
+   "explanationTr": "Uyuşmazlıklar mahkeme yerine bağlayıcı tahkim yoluyla çözülmelidir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S104",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "you may only resolve disputes with us on an individual basis, and may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action.",
+   "context": "you may only resolve disputes with us on an individual basis, and may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action.",
+   "explanationTr": "Kullanıcılar toplu dava açma hakkından feragat eder, uyuşmazlıklar yalnızca bireysel olarak çözülebilir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S51",
+   "category": "price_change",
+   "severity": "medium",
+   "quote": "we may change the fees in effect but will give you advance notice of these changes",
+   "context": "we may change the fees in effect but will give you advance notice of these changes via a message to the email address associated with your account.",
+   "explanationTr": "Şirket, önceden bildirimde bulunarak abonelik ücretlerini değiştirebilir.",
+   "confidence": 0.9,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S116",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "we may revise these terms from time to time to better reflect: (a) changes to the law",
+   "context": "we may revise these terms from time to time to better reflect: (a) changes to the law, (b) new regulatory requirements, or (c) improvements or enhancements made to our services.",
+   "explanationTr": "Şirket, bu kullanım koşullarını tek taraflı olarak güncelleyebilir.",
+   "confidence": 0.9,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S6",
+   "category": "contract_by_using",
+   "severity": "low",
+   "quote": "by using our services, you're agreeing to be bound by these terms",
+   "context": "by using our services, you're agreeing to be bound by these terms, our privacy policy and acceptable use policy.",
+   "explanationTr": "Hizmetleri kullanmanız, bu şartları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S69",
+   "category": "liability_limitation",
+   "text": "we also disclaim any warranties of merchantability, fitness for a particular purpose and non-infringement."
+  },
+  {
+   "segmentId": "S84",
+   "category": "arbitration",
+   "text": "you and dropbox agree that any judicial proceeding to resolve claims relating to these terms or the services will be brought in the federal or state courts of san francisco county, california, subject to the mandatory arbitration provisions below."
+  },
+  {
+   "segmentId": "S87",
+   "category": "arbitration",
+   "text": "if you're a u.s. resident, you also agree to the following mandatory arbitration provisions:"
+  },
+  {
+   "segmentId": "S88",
+   "category": "arbitration",
+   "text": "we both agree to arbitrate."
+  },
+  {
+   "segmentId": "S90",
+   "category": "arbitration",
+   "text": "this includes disputes arising out of or relating to interpretation or application of this \"mandatory arbitration provisions\" section, including its enforceability, revocability, or validity."
+  },
+  {
+   "segmentId": "S91",
+   "category": "arbitration",
+   "text": "opt-out of agreement to arbitrate."
+  },
+  {
+   "segmentId": "S92",
+   "category": "arbitration",
+   "text": "you can decline this agreement to arbitrate by clicking here and submitting the opt-out form within 30 days of first registering your account."
+  },
+  {
+   "segmentId": "S93",
+   "category": "arbitration",
+   "text": "however, if you agreed to a previous version of these terms that allowed you to opt out of arbitration, your previous choice to opt out or not opt out remains binding."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 121,
+  "segmentsAnalyzed": 121,
+  "charsTotal": 15635,
+  "charsAnalyzed": 15635,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 1
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 19 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S6\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"low\",\n      \"quote\": \"by using our services, you're agreeing to be bound by these terms\",\n      \"explanation_tr\": \"Hizmetleri kullanmanız, bu şartları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S51\",\n      \"category\": \"price_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may change the fees in effect but will give you advance notice of these changes\",\n      \"explanation_tr\": \"Şirket, önceden bildirimde bulunarak abonelik ücretlerini değiştirebilir.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S74\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"dropbox, its affiliates, suppliers or distributors won't be liable for: i) any indirect, special, incidental, punitive, exemplary or consequential damages\",\n      \"explanation_tr\": \"Şirket, hizmetin kullanımından kaynaklanan dolaylı veya arzi zararlardan sorumlu tutulamaz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S89\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"you and dropbox agree to resolve any claims relating to these terms or the services through final and binding arbitration\",\n      \"explanation_tr\": \"Uyuşmazlıklar mahkeme yerine bağlayıcı tahkim yoluyla çözülmelidir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S104\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"you may only resolve disputes with us on an individual basis, and may not bring a claim as a plaintiff or a class member in a class, consolidated, or representative action.\",\n      \"explanation_tr\": \"Kullanıcılar toplu dava açma hakkından feragat eder, uyuşmazlıklar yalnızca bireysel olarak çözülebilir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S116\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may revise these terms from time to time to better reflect: (a) changes to the law\",\n      \"explanation_tr\": \"Şirket, bu kullanım koşullarını tek taraflı olarak güncelleyebilir.\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 666,
+    "prompt_tokens": 4899,
+    "total_tokens": 5565
+   },
+   "durationMs": 2406
+  }
+ ]
+}

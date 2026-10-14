@@ -1,0 +1,281 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Tinder",
+ "title": "Tinder Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:41.678Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "arbitration",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "auto_renewal",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "unilateral_termination",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "cancellation_refund",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S36",
+   "category": "unilateral_termination",
+   "severity": "high",
+   "quote": "tinder may terminate your account at any time without notice if it believes that you have violated this agreement.",
+   "context": "tinder may terminate your account at any time without notice if it believes that you have violated this agreement.",
+   "explanationTr": "Tinder, kuralları ihlal ettiğinize inanırsa hesabınızı herhangi bir bildirimde bulunmaksızın sonlandırabilir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S68",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "by creating an account, you grant to tinder a worldwide, transferable, sub-licensable, royalty-free, right and license to host, store, use, copy, display, reproduce, adapt, edit, publish, modify and distribute information",
+   "context": "by creating an account, you grant to tinder a worldwide, transferable, sub-licensable, royalty-free, right and license to host, store, use, copy, display, reproduce, adapt, edit, publish, modify and distribute information you authorize us to access from facebook, as well as any information you post, upload, display or otherwise make available (collectively, \"post\") on the service or transmit to other users (collectively, \"content\").",
+   "explanationTr": "Hesap oluşturarak Tinder'a yüklediğiniz içerikleri dünya çapında, ücretsiz ve alt lisanslanabilir şekilde kullanma hakkı vermiş olursunuz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S96",
+   "category": "auto_renewal",
+   "severity": "high",
+   "quote": "if you purchase an auto-recurring periodic subscription through an in app purchase, your iap account will be billed continuously for the subscription until you cancel.",
+   "context": "if you purchase an auto-recurring periodic subscription through an in app purchase, your iap account will be billed continuously for the subscription until you cancel.",
+   "explanationTr": "Aboneliğiniz siz iptal edene kadar otomatik olarak yenilenir ve hesabınızdan ücret çekilmeye devam eder.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S165",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "in no event will tinder, its affiliates, employees, licensors or service providers be liable for any indirect, consequential, exemplary, incidental, special or punitive damages",
+   "context": "to the fullest extent permitted by applicable law, in no event will tinder, its affiliates, employees, licensors or service providers be liable for any indirect, consequential, exemplary, incidental, special or punitive damages, including, without limitation, loss of profits, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from: (i) your access to or use of or inability to access or use the services, (ii) the conduct or content of other users or third parties on, through, or following use of the services; or (iii) unauthorized access, use or alteration of your content, even if tinder has been advised of the possibility of such damages.",
+   "explanationTr": "Şirket, hizmet kullanımı sırasında oluşabilecek dolaylı veya arızi zararlar için sorumluluk kabul etmemektedir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S170",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "the exclusive means of resolving any dispute or claim arising out of or relating to this agreement (including any alleged breach thereof) or the service shall be binding arbitration",
+   "context": "the exclusive means of resolving any dispute or claim arising out of or relating to this agreement (including any alleged breach thereof) or the service shall be binding arbitration administered by the american arbitration association under the consumer arbitration rules.",
+   "explanationTr": "Uyuşmazlıklar mahkemeler yerine bağlayıcı tahkim yoluyla çözülmelidir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S172",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "you may not under any circumstances commence or maintain against the company any class action, class arbitration, or other representative action or proceeding.",
+   "context": "but whether you choose arbitration or small-claims court, you may not under any circumstances commence or maintain against the company any class action, class arbitration, or other representative action or proceeding.",
+   "explanationTr": "Kullanıcılar toplu dava (class action) açma hakkından feragat etmektedir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S189",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "all claims arising out of or relating to this agreement or the services will be litigated exclusively in the federal or state courts of dallas county, texas, u.s.a.",
+   "context": "except for users residing in the eu or european economic area, who may bring claims in their country of residence in accordance with applicable law, all claims arising out of or relating to this agreement or the services will be litigated exclusively in the federal or state courts of dallas county, texas, u.s.a., and you and tinder consent to personal jurisdiction in those courts.",
+   "explanationTr": "Anlaşmazlıklar yalnızca Teksas, ABD'deki mahkemelerde görülecektir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S9",
+   "category": "contract_by_using",
+   "severity": "medium",
+   "quote": "by creating a tinder account or by using the tinder imessage app (\"tinder stacks\"), whether through a mobile device, mobile application or computer (collectively, the \"service\") you agree to be bound by",
+   "context": "by creating a tinder account or by using the tinder imessage app (\"tinder stacks\"), whether through a mobile device, mobile application or computer (collectively, the \"service\") you agree to be bound by (i) these terms of use, (ii) our privacy policy and safety tips, each of which is incorporated by reference into this agreement, and (iii) any terms disclosed and agreed to by you if you purchase additional features, products or services we offer on the service (collectively, this \"agreement\").",
+   "explanationTr": "Hizmeti kullanmak veya hesap oluşturmak, bu sözleşme şartlarını kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S11",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "we may make changes to this agreement and to the services from time to time.",
+   "context": "we may make changes to this agreement and to the services from time to time.",
+   "explanationTr": "Şirket, bu sözleşmede ve hizmetlerde dilediği zaman tek taraflı değişiklik yapabilir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S127",
+   "category": "cancellation_refund",
+   "severity": "medium",
+   "quote": "all purchases and redemptions of virtual items made through the service are final and non-refundable.",
+   "context": "all purchases and redemptions of virtual items made through the service are final and non-refundable.",
+   "explanationTr": "Sanal ürün alımları tamamen iade edilemez niteliktedir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S40",
+   "category": "liability_limitation",
+   "text": "though tinder strives to encourage a respectful user experience through features like the double opt-in that only allows users to communicate if they have both indicated interest in one another, it is not responsible for the conduct of any user on or off of the services."
+  },
+  {
+   "segmentId": "S109",
+   "category": "liability_limitation",
+   "text": "if a payment is not successfully settled, due to expiration, insufficient funds, or otherwise, and you do not edit your payment method information or cancel your subscription, you remain responsible for any uncollected amounts and authorize us to continue billing the payment method, as it may be updated."
+  },
+  {
+   "segmentId": "S130",
+   "category": "cancellation_refund",
+   "text": "generally, all charges for purchases are nonrefundable, and there are no refunds or credits for partially used periods."
+  },
+  {
+   "segmentId": "S138",
+   "category": "cancellation_refund",
+   "text": "purchases of virtual items are final and non-refundable."
+  },
+  {
+   "segmentId": "S157",
+   "category": "liability_limitation",
+   "text": "tinder provides the service on an \"as is\" and \"as available\" basis and to the extent permitted by applicable law, grants no warranties of any kind, whether express, implied, statutory or otherwise with respect to the service (including all content contained therein), including, without limitation, any implied warranties of satisfactory quality, merchantability, fitness for a particular purpose or non-infringement."
+  },
+  {
+   "segmentId": "S162",
+   "category": "liability_limitation",
+   "text": "tinder is not responsible for the availability (or lack of availability) of such external websites or resources."
+  },
+  {
+   "segmentId": "S164",
+   "category": "liability_limitation",
+   "text": "tinder is not responsible or liable for such third parties ' terms or actions."
+  },
+  {
+   "segmentId": "S166",
+   "category": "liability_limitation",
+   "text": "in no event will tinder's aggregate liability to you for all claims relating to the service exceed the amount paid, if any, by you to tinder for the service while you have an account."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 195,
+  "segmentsAnalyzed": 195,
+  "charsTotal": 31457,
+  "charsAnalyzed": 31457,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 2
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 35 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S9\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"medium\",\n      \"quote\": \"by creating a tinder account or by using the tinder imessage app (\\\"tinder stacks\\\"), whether through a mobile device, mobile application or computer (collectively, the \\\"service\\\") you agree to be bound by\",\n      \"explanation_tr\": \"Hizmeti kullanmak veya hesap oluşturmak, bu sözleşme şartlarını kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S11\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may make changes to this agreement and to the services from time to time.\",\n      \"explanation_tr\": \"Şirket, bu sözleşmede ve hizmetlerde dilediği zaman tek taraflı değişiklik yapabilir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S36\",\n      \"category\": \"unilateral_termination\",\n      \"severity\": \"high\",\n      \"quote\": \"tinder may terminate your account at any time without notice if it believes that you have violated this agreement.\",\n      \"explanation_tr\": \"Tinder, kuralları ihlal ettiğinize inanırsa hesabınızı herhangi bir bildirimde bulunmaksızın sonlandırabilir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S68\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"by creating an account, you grant to tinder a worldwide, transferable, sub-licensable, royalty-free, right and license to host, store, use, copy, display, reproduce, adapt, edit, publish, modify and distribute information\",\n      \"explanation_tr\": \"Hesap oluşturarak Tinder'a yüklediğiniz içerikleri dünya çapında, ücretsiz ve alt lisanslanabilir şekilde kullanma hakkı vermiş olursunuz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S96\",\n      \"category\": \"auto_renewal\",\n      \"severity\": \"high\",\n      \"quote\": \"if you purchase an auto-recurring periodic subscription through an in app purchase, your iap account will be billed continuously for the subscription until you cancel.\",\n      \"explanation_tr\": \"Aboneliğiniz siz iptal edene kadar otomatik olarak yenilenir ve hesabınızdan ücret çekilmeye devam eder.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 637,
+    "prompt_tokens": 5477,
+    "total_tokens": 6114
+   },
+   "durationMs": 2807
+  },
+  {
+   "chunk": 1,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S127\",\n      \"category\": \"cancellation_refund\",\n      \"severity\": \"medium\",\n      \"quote\": \"all purchases and redemptions of virtual items made through the service are final and non-refundable.\",\n      \"explanation_tr\": \"Sanal ürün alımları tamamen iade edilemez niteliktedir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S165\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"in no event will tinder, its affiliates, employees, licensors or service providers be liable for any indirect, consequential, exemplary, incidental, special or punitive damages\",\n      \"explanation_tr\": \"Şirket, hizmet kullanımı sırasında oluşabilecek dolaylı veya arızi zararlar için sorumluluk kabul etmemektedir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S170\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"the exclusive means of resolving any dispute or claim arising out of or relating to this agreement (including any alleged breach thereof) or the service shall be binding arbitration\",\n      \"explanation_tr\": \"Uyuşmazlıklar mahkemeler yerine bağlayıcı tahkim yoluyla çözülmelidir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S172\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"you may not under any circumstances commence or maintain against the company any class action, class arbitration, or other representative action or proceeding.\",\n      \"explanation_tr\": \"Kullanıcılar toplu dava (class action) açma hakkından feragat etmektedir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S189\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"all claims arising out of or relating to this agreement or the services will be litigated exclusively in the federal or state courts of dallas county, texas, u.s.a.\",\n      \"explanation_tr\": \"Anlaşmazlıklar yalnızca Teksas, ABD'deki mahkemelerde görülecektir.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 589,
+    "prompt_tokens": 4013,
+    "total_tokens": 4602
+   },
+   "durationMs": 2510
+  }
+ ]
+}

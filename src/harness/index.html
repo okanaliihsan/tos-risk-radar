@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>ToS Risk Radar — Test Ortamı</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="report.css">
+<style>
+  html, body { height: 100%; }
+  body { display: grid; grid-template-rows: auto 1fr; }
+  .bar { display: flex; gap: 12px; align-items: center; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--card); flex-wrap: wrap; }
+  .bar .tag { font-size: 12px; color: var(--muted); }
+  .bar select, .bar input { font: inherit; padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); }
+  main { display: grid; grid-template-columns: minmax(0, 1fr) 460px; min-height: 0; }
+  iframe { width: 100%; height: 100%; border: 0; border-right: 1px solid var(--line); background: #fff; }
+  aside { overflow: auto; padding: 14px; }
+  .popup-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+  #llmcfg { display: none; gap: 6px; margin-bottom: 10px; }
+  #llmcfg.show { display: grid; }
+  @media (max-width: 900px) { main { grid-template-columns: 1fr; grid-template-rows: 50vh auto; } }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <strong>ToS Risk Radar</strong>
+    <span class="tag">Uzantı simülatörü: soldaki çerçeve = tarayıcı sekmesi, sağdaki panel = uzantı penceresi. Aynı çıkarıcı, aynı analiz hattı, aynı rapor bileşeni.</span>
+    <label>Sayfa <select id="page" data-cy="page-select"></select></label>
+  </div>
+  <main>
+    <iframe id="tab" title="Analiz edilen sayfa" data-cy="tab"></iframe>
+    <aside>
+      <div class="popup-head">
+        <h1>ToS Risk Radar</h1>
+        <a href="#" id="toggle-cfg">LLM ayarları</a>
+      </div>
+      <div id="llmcfg">
+        <input id="baseURL" placeholder="https://api.openai.com/v1">
+        <input id="model" placeholder="gpt-4.1-mini">
+        <input id="apiKey" type="password" placeholder="API anahtarı (kendi anahtarınız)">
+      </div>
+      <p><button id="analyze" data-cy="analyze">Bu sayfayı analiz et</button></p>
+      <div id="app" data-cy="panel"></div>
+    </aside>
+  </main>
+  <script src="harness.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "tos-risk-radar",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chrome extension that turns Terms of Service / privacy / subscription pages into a verified, quote-backed risk report.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test \"tests/unit/*.test.ts\"",
+    "test:dom": "node --import tsx --test \"tests/dom/*.test.ts\"",
+    "eval:prepare": "node --import tsx eval/prepare.ts",
+    "eval:rules": "node --import tsx eval/run.ts --mode rules",
+    "eval:llm": "node --import tsx eval/run.ts --mode llm",
+    "eval:replay": "node --import tsx eval/run.ts --mode replay",
+    "eval:injection": "node --import tsx eval/injection.ts",
+    "serve": "node scripts/serve.mjs",
+    "cy:open": "cypress open",
+    "cy:demo": "cypress run --spec cypress/e2e/demo.cy.ts --browser chrome"
+  },
+  "dependencies": {
+    "@page-agent/page-controller": "1.12.4",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.4",
+    "@types/node": "^22.10.0",
+    "cypress": "^15.21.1",
+    "esbuild": "^0.25.10",
+    "playwright": "^1.56.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}

@@ -1,0 +1,233 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Pinterest",
+ "title": "Pinterest Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:16.306Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "arbitration",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S31",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "you grant pinterest and our users a non-exclusive, royalty-free, transferable, sublicensable, worldwide license to use, store, display, reproduce, save, modify, create derivative works, perform, and distribute your user content on pinterest",
+   "context": "you grant pinterest and our users a non-exclusive, royalty-free, transferable, sublicensable, worldwide license to use, store, display, reproduce, save, modify, create derivative works, perform, and distribute your user content on pinterest solely for the purposes of operating, developing, providing, and using pinterest.",
+   "explanationTr": "Paylaştığınız içerikler üzerinde platforma ve diğer kullanıcılara dünya çapında, geniş kapsamlı kullanım hakları vermiş olursunuz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S75",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "pinterest shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues",
+   "context": "to the maximum extent permitted by law, pinterest shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your access to or use of or inability to access or use the service; (b) any conduct or content of any third party on the service, including without limitation, any defamatory, offensive or illegal conduct of other users or third parties; or (c) unauthorized access, use or alteration of your transmissions or content.",
+   "explanationTr": "Şirket, hizmetin kullanımı veya kesintiye uğraması nedeniyle oluşabilecek dolaylı zararlardan veya kâr kayıplarından sorumlu tutulamaz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S86",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "we each agree to resolve any claim, dispute, or controversy (excluding claims for injunctive or other equitable relief) arising out of or in connection with or relating to these terms through binding arbitration or (for qualifying claims) in small claims court.",
+   "context": "if pinterest hasn't been able to resolve the dispute with you informally, we each agree to resolve any claim, dispute, or controversy (excluding claims for injunctive or other equitable relief) arising out of or in connection with or relating to these terms through binding arbitration or (for qualifying claims) in small claims court.",
+   "explanationTr": "Anlaşmazlık durumunda mahkemeye gitmek yerine bağlayıcı tahkim yoluna başvurmanız gerekir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S90",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "you and pinterest are each waiving the right to a trial by jury or to participate in a class action.",
+   "context": "you agree that, by agreeing to these terms of service, the u.s. federal arbitration act governs the interpretation and enforcement of this provision, and that you and pinterest are each waiving the right to a trial by jury or to participate in a class action.",
+   "explanationTr": "Jürili yargılama hakkınızdan ve toplu dava açma hakkınızdan feragat etmiş olursunuz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S107",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "the exclusive place of jurisdiction for all disputes arising from or in connection with this agreement is san francisco county, california",
+   "context": "if you are not a consumer in the eea, the exclusive place of jurisdiction for all disputes arising from or in connection with this agreement is san francisco county, california, or the united states district court for the northern district of california and our dispute will be determined under california law.",
+   "explanationTr": "Hukuki uyuşmazlıklar için Kaliforniya, San Francisco mahkemeleri yetkili kılınmıştır.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S4",
+   "category": "contract_by_using",
+   "severity": "medium",
+   "quote": "by accessing or using pinterest, you agree to be bound by these terms",
+   "context": "by accessing or using pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines.",
+   "explanationTr": "Siteyi kullanmaya başlamanız, bu koşulları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S106",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "these terms shall be governed by the laws of the state of california, without respect to its conflict of laws principles.",
+   "context": "these terms shall be governed by the laws of the state of california, without respect to its conflict of laws principles.",
+   "explanationTr": "Bu sözleşme Kaliforniya eyalet yasalarına tabidir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S116",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "we may revise these terms from time to time and the most current version will always be posted on our website.",
+   "context": "we may revise these terms from time to time and the most current version will always be posted on our website.",
+   "explanationTr": "Şirket, bu koşulları önceden haber vermeksizin veya dilediği zaman tek taraflı olarak değiştirebilir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S58",
+   "category": "liability_limitation",
+   "text": "most of that stuff is awesome, but we're not responsible when it's not."
+  },
+  {
+   "segmentId": "S67",
+   "category": "liability_limitation",
+   "text": "our service and all content on pinterest is provided on an \"as is\" basis without warranty of any kind, whether express or implied."
+  },
+  {
+   "segmentId": "S68",
+   "category": "liability_limitation",
+   "text": "pinterest specifically disclaims any and all warranties and conditions of merchantability, fitness for a particular purpose, and non-infringement, and any warranties arising out of course of dealing or usage of trade."
+  },
+  {
+   "segmentId": "S76",
+   "category": "liability_limitation",
+   "text": "in no event shall pinterest's aggregate liability for all claims relating to the service exceed one hundred u.s. dollars (u.s. $ 100.00)."
+  },
+  {
+   "segmentId": "S80",
+   "category": "liability_limitation",
+   "text": "this limitation of liability won't apply to any statutory liability that can not be limited, to liability for death or personal injury caused by our negligence or willful misconduct, or if and to exclude our responsibility for something we have specifically promised to you."
+  },
+  {
+   "segmentId": "S82",
+   "category": "liability_limitation",
+   "text": "we're not liable for various things."
+  },
+  {
+   "segmentId": "S87",
+   "category": "arbitration",
+   "text": "arbitration is a more informal way to resolve our disagreements than a lawsuit in court."
+  },
+  {
+   "segmentId": "S88",
+   "category": "arbitration",
+   "text": "for instance, arbitration uses a neutral arbitrator instead of a judge or jury, involves more limited discovery, and is subject to very limited review by courts."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 132,
+  "segmentsAnalyzed": 132,
+  "charsTotal": 17430,
+  "charsAnalyzed": 17430,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 1
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 23 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S4\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"medium\",\n      \"quote\": \"by accessing or using pinterest, you agree to be bound by these terms\",\n      \"explanation_tr\": \"Siteyi kullanmaya başlamanız, bu koşulları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S31\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"you grant pinterest and our users a non-exclusive, royalty-free, transferable, sublicensable, worldwide license to use, store, display, reproduce, save, modify, create derivative works, perform, and distribute your user content on pinterest\",\n      \"explanation_tr\": \"Paylaştığınız içerikler üzerinde platforma ve diğer kullanıcılara dünya çapında, geniş kapsamlı kullanım hakları vermiş olursunuz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S75\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"pinterest shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues\",\n      \"explanation_tr\": \"Şirket, hizmetin kullanımı veya kesintiye uğraması nedeniyle oluşabilecek dolaylı zararlardan veya kâr kayıplarından sorumlu tutulamaz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S86\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"we each agree to resolve any claim, dispute, or controversy ... through binding arbitration or (for qualifying claims) in small claims court.\",\n      \"explanation_tr\": \"Anlaşmazlık durumunda mahkemeye gitmek yerine bağlayıcı tahkim yoluna başvurmanız gerekir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S90\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"you and pinterest are each waiving the right to a trial by jury or to participate in a class action.\",\n      \"explanation_tr\": \"Jürili yargılama hakkınızdan ve toplu dava açma hakkınızdan feragat etmiş olursunuz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S107\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"the exclusive place of jurisdiction for all disputes arising from or in connection with this agreement is san francisco county, california\",\n      \"explanation_tr\": \"Hukuki uyuşmazlıklar için Kaliforniya, San Francisco mahkemeleri yetkili kılınmıştır.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S106\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"these terms shall be governed by the laws of the state of california, without respect to its conflict of laws principles.\",\n      \"explanation_tr\": \"Bu sözleşme Kaliforniya eyalet yasalarına tabidir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S116\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may revise these terms from time to time and the most current version will always be posted on our website.\",\n      \"explanation_tr\": \"Şirket, bu koşulları önceden haber vermeksizin veya dilediği zaman tek taraflı olarak değiştirebilir.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 926,
+    "prompt_tokens": 5366,
+    "total_tokens": 6292
+   },
+   "durationMs": 2979
+  }
+ ]
+}

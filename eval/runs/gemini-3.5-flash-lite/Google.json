@@ -1,0 +1,213 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Google",
+ "title": "Google Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:08.075Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "privacy_by_using",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "low",
+    "count": 1,
+    "points": 6
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S39",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "when you upload, submit, store, send or receive content to or through our services, you give google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works",
+   "context": "when you upload, submit, store, send or receive content to or through our services, you give google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such as those resulting from translations, adaptations or other changes we make so that your content works better with our services), communicate, publish, publicly perform, publicly display and distribute such content.",
+   "explanationTr": "Yüklediğiniz içerikler üzerinde Google'a dünya çapında geniş kullanım ve değiştirme lisansı vermiş olursunuz.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S73",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "to the extent permitted by law, we exclude all warranties.",
+   "context": "to the extent permitted by law, we exclude all warranties.",
+   "explanationTr": "Yasal olarak izin verilen ölçüde tüm garantiler hariç tutulmuştur ve hizmetler olduğu gibi sunulur.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S75",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "the total liability of google, and its suppliers and distributors, for any claims under these terms, including for any implied warranties, is limited to the amount you paid us to use the services",
+   "context": "to the extent permitted by law, the total liability of google, and its suppliers and distributors, for any claims under these terms, including for any implied warranties, is limited to the amount you paid us to use the services (or, if we choose, to supplying you the services again).",
+   "explanationTr": "Google'ın sorumluluğu, varsa hizmetler için ödediğiniz tutarla sınırlandırılmıştır.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S92",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "all claims arising out of or relating to these terms or the services will be litigated exclusively in the federal or state courts of santa clara county, california, usa",
+   "context": "all claims arising out of or relating to these terms or the services will be litigated exclusively in the federal or state courts of santa clara county, california, usa, and you and google consent to personal jurisdiction in those courts.",
+   "explanationTr": "Tüm ihtilaflar yalnızca Kaliforniya'daki mahkemelerde görülecektir, bu da sizin için hukuki süreçleri zorlaştırabilir.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S32",
+   "category": "privacy_by_using",
+   "severity": "medium",
+   "quote": "by using our services, you agree that google can use such data in accordance with our privacy policies.",
+   "context": "by using our services, you agree that google can use such data in accordance with our privacy policies.",
+   "explanationTr": "Hizmetleri kullanarak kişisel verilerinizin gizlilik politikalarına uygun şekilde kullanılmasına onay vermiş olursunuz.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S79",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "we may modify these terms or any additional terms that apply to a service to, for example, reflect changes to the law or changes to our services.",
+   "context": "we may modify these terms or any additional terms that apply to a service to, for example, reflect changes to the law or changes to our services.",
+   "explanationTr": "Şirket, koşulları önceden haber vermeksizin veya tek taraflı olarak değiştirebilir.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S91",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "the laws of california, u.s.a., excluding california's conflict of laws rules, will apply to any disputes",
+   "context": "the laws of california, u.s.a., excluding california's conflict of laws rules, will apply to any disputes arising out of or relating to these terms or the services.",
+   "explanationTr": "Anlaşmazlıkların çözümünde ABD Kaliforniya eyalet yasaları geçerli olacaktır.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S4",
+   "category": "contract_by_using",
+   "severity": "low",
+   "quote": "by using our services, you are agreeing to these terms.",
+   "context": "by using our services, you are agreeing to these terms.",
+   "explanationTr": "Hizmetleri kullanmak, bu koşulları kabul ettiğiniz anlamına gelir.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S74",
+   "category": "liability_limitation",
+   "text": "when permitted by law, google, and google's suppliers and distributors, will not be responsible for lost profits, revenues, or data, financial losses or indirect, special, consequential, exemplary, or punitive damages."
+  },
+  {
+   "segmentId": "S76",
+   "category": "liability_limitation",
+   "text": "in all cases, google, and its suppliers and distributors, will not be liable for any loss or damage that is not reasonably foreseeable."
+  },
+  {
+   "segmentId": "S47",
+   "category": "tracking_profiling",
+   "text": "if you have a google account, we may display your profile name, profile photo, and actions you take on google or on third-party applications connected to your google account (such as +1's, reviews you write and comments you post) in our services, including displaying in ads and other commercial contexts."
+  },
+  {
+   "segmentId": "S54",
+   "category": "content_license",
+   "text": "google gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you by google as part of the services."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 93,
+  "segmentsAnalyzed": 93,
+  "charsTotal": 11085,
+  "charsAnalyzed": 11085,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 1
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 4 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S4\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"low\",\n      \"quote\": \"by using our services, you are agreeing to these terms.\",\n      \"explanation_tr\": \"Hizmetleri kullanmak, bu koşulları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S32\",\n      \"category\": \"privacy_by_using\",\n      \"severity\": \"medium\",\n      \"quote\": \"by using our services, you agree that google can use such data in accordance with our privacy policies.\",\n      \"explanation_tr\": \"Hizmetleri kullanarak kişisel verilerinizin gizlilik politikalarına uygun şekilde kullanılmasına onay vermiş olursunuz.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S39\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"when you upload, submit, store, send or receive content to or through our services, you give google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works\",\n      \"explanation_tr\": \"Yüklediğiniz içerikler üzerinde Google'a dünya çapında geniş kullanım ve değiştirme lisansı vermiş olursunuz.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S73\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"to the extent permitted by law, we exclude all warranties.\",\n      \"explanation_tr\": \"Yasal olarak izin verilen ölçüde tüm garantiler hariç tutulmuştur ve hizmetler olduğu gibi sunulur.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S75\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"the total liability of google, and its suppliers and distributors, for any claims under these terms... is limited to the amount you paid us to use the services\",\n      \"explanation_tr\": \"Google'ın sorumluluğu, varsa hizmetler için ödediğiniz tutarla sınırlandırılmıştır.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S79\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may modify these terms or any additional terms that apply to a service to, for example, reflect changes to the law or changes to our services.\",\n      \"explanation_tr\": \"Şirket, koşulları önceden haber vermeksizin veya tek taraflı olarak değiştirebilir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S91\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"the laws of california, u.s.a., excluding california's conflict of laws rules, will apply to any disputes\",\n      \"explanation_tr\": \"Anlaşmazlıkların çözümünde ABD Kaliforniya eyalet yasaları geçerli olacaktır.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S92\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"all claims arising out of or relating to these terms or the services will be litigated exclusively in the federal or state courts of santa clara county, california, usa\",\n      \"explanation_tr\": \"Tüm ihtilaflar yalnızca Kaliforniya'daki mahkemelerde görülecektir, bu da sizin için hukuki süreçleri zorlaştırabilir.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 908,
+    "prompt_tokens": 3733,
+    "total_tokens": 4641
+   },
+   "durationMs": 3482
+  }
+ ]
+}

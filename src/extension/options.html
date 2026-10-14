@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>ToS Risk Radar — Ayarlar</title>
+    <link rel="stylesheet" href="report.css" />
+    <style>
+      body { max-width: 620px; margin: 32px auto; padding: 0 16px; }
+      label { display: block; font-weight: 600; margin: 14px 0 4px; }
+      input, select { width: 100%; font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+      .note { color: var(--muted); font-size: 12.5px; }
+      #status { margin-top: 12px; }
+    </style>
+  </head>
+  <body>
+    <h1>ToS Risk Radar — LLM ayarları</h1>
+    <p class="note">
+      Kendi LLM anahtarınızı kullanın. OpenAI uyumlu her uç nokta çalışır (OpenAI, OpenRouter, Gemini, Qwen/DashScope, Ollama).
+      page-agent'in demo LLM'i kullanılmaz.
+    </p>
+    <div class="disclaimer"><strong>Hukuki tavsiye değildir.</strong> Bu uzantı sözleşme metinlerindeki olası riskleri işaretler; hukuki değerlendirme yerine geçmez.</div>
+
+    <label for="preset">Hazır ayar</label>
+    <select id="preset"><option value="">— seçin —</option></select>
+
+    <label for="baseURL">API adresi (base URL)</label>
+    <input id="baseURL" placeholder="https://api.openai.com/v1" />
+
+    <label for="model">Model</label>
+    <input id="model" placeholder="gpt-4.1-mini" />
+
+    <label for="apiKey">API anahtarı</label>
+    <input id="apiKey" type="password" autocomplete="off" />
+    <p class="note">Anahtar yalnızca bu tarayıcıda saklanır, senkronize edilmez ve yalnızca yukarıdaki adrese gönderilir.</p>
+
+    <label for="structuredMode">Yapılandırılmış çıktı</label>
+    <select id="structuredMode">
+      <option value="json_schema">JSON Schema (strict) — önerilen</option>
+      <option value="json_object">JSON modu (şema istemde)</option>
+      <option value="none">Yok (yalnızca doğrulama)</option>
+    </select>
+    <p class="note">Hangi mod seçilirse seçilsin, yanıt her zaman Zod şemasıyla ve alıntı doğrulamasıyla kontrol edilir.</p>
+
+    <label for="maxCalls">Sayfa başına en fazla LLM çağrısı</label>
+    <input id="maxCalls" type="number" min="1" max="10" />
+
+    <p><button id="save">Kaydet ve erişim izni ver</button></p>
+    <div id="status" class="note"></div>
+    <script src="options.js"></script>
+  </body>
+</html>

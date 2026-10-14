@@ -1,0 +1,303 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Uber",
+ "title": "Uber Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:36.480Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 4,
+    "points": 24
+   },
+   {
+    "category": "arbitration",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "unilateral_termination",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "cancellation_refund",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "price_change",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S7",
+   "category": "unilateral_termination",
+   "severity": "high",
+   "quote": "uber may immediately terminate these terms or any services with respect to you, or generally cease offering or deny access to the services or any portion thereof, at any time for any reason.",
+   "context": "uber may immediately terminate these terms or any services with respect to you, or generally cease offering or deny access to the services or any portion thereof, at any time for any reason.",
+   "explanationTr": "Uber, herhangi bir gerekçe göstermeksizin ve istediği zaman hizmete erişiminizi sonlandırabilir veya hesabınızı kapatabilir.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S11",
+   "category": "unilateral_change",
+   "severity": "high",
+   "quote": "uber may amend the terms related to the services from time to time.",
+   "context": "uber may amend the terms related to the services from time to time.",
+   "explanationTr": "Şirket, kullanım koşullarını istediği zaman tek taraflı olarak değiştirebilir.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S54",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "by providing user content to uber, you grant uber a worldwide, perpetual, irrevocable, transferrable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such user content",
+   "context": "however, by providing user content to uber, you grant uber a worldwide, perpetual, irrevocable, transferrable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such user content in all formats and distribution channels now known or hereafter devised (including in connection with the services and uber's business and on third-party sites and services), without further notice to or consent from you, and without the requirement of payment to you or any other person or entity.",
+   "explanationTr": "Oluşturduğunuz veya yüklediğiniz içerikler üzerinde şirkete dünya çapında, kalıcı, telifsiz ve sınırsız bir kullanım ve alt lisans verme hakkı tanımış olursunuz.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S91",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "uber shall not be liable for indirect, incidental, special, exemplary, punitive or consequential damages, including lost profits, lost data, personal injury or property damage related to",
+   "context": "uber shall not be liable for indirect, incidental, special, exemplary, punitive or consequential damages, including lost profits, lost data, personal injury or property damage related to, in connection with, or otherwise resulting from any use of the services, even if uber has been advised of the possibility of such damages.",
+   "explanationTr": "Uber, hizmetin kullanımı nedeniyle yaşanabilecek veri kaybı, yaralanma veya maddi zararlardan sorumlu tutulamaz.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S92",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "uber shall not be liable for any damages, liability or losses arising out of",
+   "context": "uber shall not be liable for any damages, liability or losses arising out of: (i) your use of or reliance on the services or your inability to access or use the services; or (ii) any transaction or relationship between you and any third party provider, even if uber has been advised of the possibility of such damages.",
+   "explanationTr": "Şirket, hizmetlerin kullanımı veya üçüncü taraf sağlayıcılarla yaşanan sorunlar nedeniyle oluşabilecek zararlardan sorumluluk kabul etmemektedir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S95",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "in no event shall uber's total liability to you in connection with the services for all damages, losses and causes of action exceed five hundred euros ($ 500).",
+   "context": "in no event shall uber's total liability to you in connection with the services for all damages, losses and causes of action exceed five hundred euros ($ 500).",
+   "explanationTr": "Şirketin size karşı toplam sorumluluğu en fazla 500 euro ile sınırlandırılmıştır.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S101",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "any dispute, conflict, claim or controversy arising out of or broadly in connection with or relating to the services or these terms, including those relating to its validity, its construction or its enforceability (any \"dispute\") shall be first mandatorily submitted to mediation",
+   "context": "any dispute, conflict, claim or controversy arising out of or broadly in connection with or relating to the services or these terms, including those relating to its validity, its construction or its enforceability (any \"dispute\") shall be first mandatorily submitted to mediation proceedings under the international chamber of commerce mediation rules (\"icc mediation rules\").",
+   "explanationTr": "Uyuşmazlıklar mahkemeye gitmeden önce zorunlu arabuluculuk ve tahkime tabidir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S98",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "you agree to indemnify and hold uber and its officers, directors, employees and agents harmless from any and all claims, demands, losses, liabilities, and expenses",
+   "context": "you agree to indemnify and hold uber and its officers, directors, employees and agents harmless from any and all claims, demands, losses, liabilities, and expenses (including attorneys ' fees) arising out of or in connection with: (i) your use of the services or services or goods obtained through your use of the services; (ii) your breach or violation of any of these terms; (iii) uber's use of your user content; or (iv) your violation of the rights of any third party, including third party providers.",
+   "explanationTr": "Kullanımınızdan veya ihlallerinizden kaynaklanan tüm masraf ve zararları şirkete ödemeyi kabul ediyorsunuz.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S4",
+   "category": "contract_by_using",
+   "severity": "medium",
+   "quote": "your access and use of the services constitutes your agreement to be bound by these terms",
+   "context": "your access and use of the services constitutes your agreement to be bound by these terms, which establishes a contractual relationship between you and uber.",
+   "explanationTr": "Hizmeti kullanmanız, bu sözleşme şartlarını kabul ettiğiniz anlamına gelir.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S67",
+   "category": "cancellation_refund",
+   "severity": "medium",
+   "quote": "charges paid by you are final and non-refundable, unless otherwise determined by uber.",
+   "context": "charges paid by you are final and non-refundable, unless otherwise determined by uber.",
+   "explanationTr": "Ödediğiniz ücretler kural olarak iade edilmez; iade yapılıp yapılmayacağına tamamen Uber karar verir.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S72",
+   "category": "price_change",
+   "severity": "medium",
+   "quote": "uber reserves the right to establish, remove and/or revise charges for any or all services or goods obtained through the use of the services at any time in uber's sole discretion.",
+   "context": "as between you and uber, uber reserves the right to establish, remove and/or revise charges for any or all services or goods obtained through the use of the services at any time in uber's sole discretion.",
+   "explanationTr": "Uber, sunduğu hizmetlerin ücretlerini dilediği zaman tek taraflı olarak değiştirebilir veya yeni ücretler belirleyebilir.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S99",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "these terms shall be exclusively governed by and construed in accordance with the laws of the netherlands",
+   "context": "except as otherwise set forth in these terms, these terms shall be exclusively governed by and construed in accordance with the laws of the netherlands, excluding its rules on conflicts of laws.",
+   "explanationTr": "Bu sözleşme Hollanda yasalarına tabidir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S27",
+   "category": "liability_limitation",
+   "text": "uber does not endorse such third party services and content and in no event shall uber be responsible or liable for any products or services of such third party providers."
+  },
+  {
+   "segmentId": "S29",
+   "category": "liability_limitation",
+   "text": "these third party beneficiaries are not parties to this contract and are not responsible for the provision or support of the services in any manner."
+  },
+  {
+   "segmentId": "S84",
+   "category": "cancellation_refund",
+   "text": "such amounts will be transferred by uber to the applicable third party provider and are non-refundable."
+  },
+  {
+   "segmentId": "S85",
+   "category": "liability_limitation",
+   "text": "disclaimers; limitation of liability; indemnity."
+  },
+  {
+   "segmentId": "S86",
+   "category": "liability_limitation",
+   "text": "the services are provided \"as is\" and \"as available.\""
+  },
+  {
+   "segmentId": "S87",
+   "category": "liability_limitation",
+   "text": "uber disclaims all representations and warranties, express, implied or statutory, not expressly set out in these terms, including the implied warranties of merchantability, fitness for a particular purpose and non-infringement."
+  },
+  {
+   "segmentId": "S93",
+   "category": "liability_limitation",
+   "text": "uber shall not be liable for delay or failure in performance resulting from causes beyond uber's reasonable control."
+  },
+  {
+   "segmentId": "S102",
+   "category": "arbitration",
+   "text": "if such dispute has not been settled within sixty (60) days after a request for mediation has been submitted under such icc mediation rules, such dispute can be referred to and shall be exclusively and finally resolved by arbitration under the rules of arbitration of the international chamber of commerce (\"icc arbitration rules\")."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 118,
+  "segmentsAnalyzed": 118,
+  "charsTotal": 25321,
+  "charsAnalyzed": 25321,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 2
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 18 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S7\",\n      \"category\": \"unilateral_termination\",\n      \"severity\": \"high\",\n      \"quote\": \"uber may immediately terminate these terms or any services with respect to you, or generally cease offering or deny access to the services or any portion thereof, at any time for any reason.\",\n      \"explanation_tr\": \"Uber, herhangi bir gerekçe göstermeksizin ve istediği zaman hizmete erişiminizi sonlandırabilir veya hesabınızı kapatabilir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S11\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"high\",\n      \"quote\": \"uber may amend the terms related to the services from time to time.\",\n      \"explanation_tr\": \"Şirket, kullanım koşullarını istediği zaman tek taraflı olarak değiştirebilir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S4\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"medium\",\n      \"quote\": \"your access and use of the services constitutes your agreement to be bound by these terms\",\n      \"explanation_tr\": \"Hizmeti kullanmanız, bu sözleşme şartlarını kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S54\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"by providing user content to uber, you grant uber a worldwide, perpetual, irrevocable, transferrable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such user content\",\n      \"explanation_tr\": \"Oluşturduğunuz veya yüklediğiniz içerikler üzerinde şirkete dünya çapında, kalıcı, telifsiz ve sınırsız bir kullanım ve alt lisans verme hakkı tanımış olursunuz.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S67\",\n      \"category\": \"cancellation_refund\",\n      \"severity\": \"medium\",\n      \"quote\": \"charges paid by you are final and non-refundable, unless otherwise determined by uber.\",\n      \"explanation_tr\": \"Ödediğiniz ücretler kural olarak iade edilmez; iade yapılıp yapılmayacağına tamamen Uber karar verir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S72\",\n      \"category\": \"price_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"uber reserves the right to establish, remove and/or revise charges for any or all services or goods obtained through the use of the services at any time in uber's sole discretion.\",\n      \"explanation_tr\": \"Uber, sunduğu hizmetlerin ücretlerini dilediği zaman tek taraflı olarak değiştirebilir veya yeni ücretler belirleyebilir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S91\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"uber shall not be liable for indirect, incidental, special, exemplary, punitive or consequential damages, including lost profits, lost data, personal injury or property damage related to\",\n      \"explanation_tr\": \"Uber, hizmetin kullanımı nedeniyle yaşanabilecek veri kaybı, yaralanma veya maddi zararlardan sorumlu tutulamaz.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 861,
+    "prompt_tokens": 5259,
+    "total_tokens": 6120
+   },
+   "durationMs": 2802
+  },
+  {
+   "chunk": 1,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S92\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"uber shall not be liable for any damages, liability or losses arising out of\",\n      \"explanation_tr\": \"Şirket, hizmetlerin kullanımı veya üçüncü taraf sağlayıcılarla yaşanan sorunlar nedeniyle oluşabilecek zararlardan sorumluluk kabul etmemektedir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S95\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"in no event shall uber's total liability to you in connection with the services for all damages, losses and causes of action exceed five hundred euros ($ 500).\",\n      \"explanation_tr\": \"Şirketin size karşı toplam sorumluluğu en fazla 500 euro ile sınırlandırılmıştır.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S98\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"you agree to indemnify and hold uber and its officers, directors, employees and agents harmless from any and all claims, demands, losses, liabilities, and expenses\",\n      \"explanation_tr\": \"Kullanımınızdan veya ihlallerinizden kaynaklanan tüm masraf ve zararları şirkete ödemeyi kabul ediyorsunuz.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S99\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"these terms shall be exclusively governed by and construed in accordance with the laws of the netherlands\",\n      \"explanation_tr\": \"Bu sözleşme Hollanda yasalarına tabidir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S101\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"any dispute, conflict, claim or controversy arising out of or broadly in connection with or relating to the services or these terms ... shall be first mandatorily submitted to mediation\",\n      \"explanation_tr\": \"Uyuşmazlıklar mahkemeye gitmeden önce zorunlu arabuluculuk ve tahkime tabidir.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 592,
+    "prompt_tokens": 2422,
+    "total_tokens": 3014
+   },
+   "durationMs": 2318
+  }
+ ]
+}

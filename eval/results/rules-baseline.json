@@ -1,0 +1,3043 @@
+{
+ "model": "rules",
+ "mode": "rules",
+ "docs": [
+  "Google",
+  "Netflix",
+  "Dropbox",
+  "Pinterest",
+  "WhatsApp",
+  "Reddit",
+  "YouTube",
+  "Facebook",
+  "Uber",
+  "Tinder"
+ ],
+ "summary": {
+  "tp": 82,
+  "fp": 84,
+  "fn": 90,
+  "precision": 0.4939759036144578,
+  "recall": 0.47674418604651164,
+  "f1": 0.48520710059171596,
+  "categoryMatch": 77,
+  "perCode": {
+   "A": {
+    "tp": 7,
+    "fp": 54,
+    "fn": 2,
+    "precision": 0.11475409836065574,
+    "recall": 0.7777777777777778,
+    "f1": 0.19999999999999998
+   },
+   "CH": {
+    "tp": 9,
+    "fp": 5,
+    "fn": 18,
+    "precision": 0.6428571428571429,
+    "recall": 0.3333333333333333,
+    "f1": 0.43902439024390244
+   },
+   "CR": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 10,
+    "precision": 1,
+    "recall": 0.2857142857142857,
+    "f1": 0.4444444444444445
+   },
+   "J": {
+    "tp": 4,
+    "fp": 0,
+    "fn": 8,
+    "precision": 1,
+    "recall": 0.3333333333333333,
+    "f1": 0.5
+   },
+   "LAW": {
+    "tp": 7,
+    "fp": 1,
+    "fn": 7,
+    "precision": 0.875,
+    "recall": 0.5,
+    "f1": 0.6363636363636364
+   },
+   "LTD": {
+    "tp": 27,
+    "fp": 27,
+    "fn": 19,
+    "precision": 0.5,
+    "recall": 0.5869565217391305,
+    "f1": 0.54
+   },
+   "TER": {
+    "tp": 10,
+    "fp": 6,
+    "fn": 21,
+    "precision": 0.625,
+    "recall": 0.3225806451612903,
+    "f1": 0.425531914893617
+   },
+   "USE": {
+    "tp": 8,
+    "fp": 2,
+    "fn": 18,
+    "precision": 0.8,
+    "recall": 0.3076923076923077,
+    "f1": 0.4444444444444444
+   },
+   "PINC": {
+    "tp": 2,
+    "fp": 0,
+    "fn": 6,
+    "precision": 1,
+    "recall": 0.25,
+    "f1": 0.4
+   }
+  },
+  "outOfTaxonomy": 35,
+  "outOfTaxonomyOnGoldUnfair": 0
+ },
+ "summaryInclUncertain": null,
+ "stats": null,
+ "perDoc": [
+  {
+   "doc": "Google",
+   "sentences": 93,
+   "goldUnfair": 13,
+   "caught": [
+    {
+     "segmentId": "S32",
+     "gold": [
+      "USE",
+      "PINC"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "by using our services, you agree that google can use such data in accordance with our privacy policies."
+    },
+    {
+     "segmentId": "S74",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "when permitted by law, google, and google's suppliers and distributors, will not be responsible for lost profits, revenues, or data, financial losses or indirect, special, consequential, exemplary, or punitive damages."
+    },
+    {
+     "segmentId": "S75",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "to the extent permitted by law, the total liability of google, and its suppliers and distributors, for any claims under these terms, including for any implied warranties, is limited to the amount you paid us to use the services (or, if we choose, to supplying you the services again)."
+    },
+    {
+     "segmentId": "S76",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in all cases, google, and its suppliers and distributors, will not be liable for any loss or damage that is not reasonably foreseeable."
+    },
+    {
+     "segmentId": "S79",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "we may modify these terms or any additional terms that apply to a service to, for example, reflect changes to the law or changes to our services."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S4",
+     "gold": [
+      "USE"
+     ],
+     "text": "by using our services, you are agreeing to these terms."
+    },
+    {
+     "segmentId": "S11",
+     "gold": [
+      "TER"
+     ],
+     "text": "we may suspend or stop providing our services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct."
+    },
+    {
+     "segmentId": "S61",
+     "gold": [
+      "CH"
+     ],
+     "text": "we may add or remove functionalities or features."
+    },
+    {
+     "segmentId": "S62",
+     "gold": [
+      "TER"
+     ],
+     "text": "and we may suspend or stop a service altogether."
+    },
+    {
+     "segmentId": "S64",
+     "gold": [
+      "TER"
+     ],
+     "text": "google may also stop providing services to you, or add or create new limits to our services at any time."
+    },
+    {
+     "segmentId": "S80",
+     "gold": [
+      "CH"
+     ],
+     "text": "you should look at the terms regularly."
+    },
+    {
+     "segmentId": "S91",
+     "gold": [
+      "LAW"
+     ],
+     "text": "the laws of california, u.s.a., excluding california's conflict of laws rules, will apply to any disputes arising out of or relating to these terms or the services."
+    },
+    {
+     "segmentId": "S92",
+     "gold": [
+      "J"
+     ],
+     "text": "all claims arising out of or relating to these terms or the services will be litigated exclusively in the federal or state courts of santa clara county, california, usa, and you and google consent to personal jurisdiction in those courts."
+    }
+   ],
+   "falseAlarms": [],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S39",
+     "categories": [
+      "content_license"
+     ],
+     "text": "when you upload, submit, store, send or receive content to or through our services, you give google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such as those resulting from translations, adaptations or other changes we make so that your content works better with our services), communicate, publish, publicly perform, publicly display and distribute such content.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S47",
+     "categories": [
+      "tracking_profiling"
+     ],
+     "text": "if you have a google account, we may display your profile name, profile photo, and actions you take on google or on third-party applications connected to your google account (such as +1's, reviews you write and comments you post) in our services, including displaying in ads and other commercial contexts.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S54",
+     "categories": [
+      "content_license"
+     ],
+     "text": "google gives you a personal, worldwide, royalty-free, non-assignable and non-exclusive license to use the software provided to you by google as part of the services.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2
+    },
+    "CR": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "J": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "LAW": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "LTD": {
+     "tp": 3,
+     "fp": 0,
+     "fn": 0
+    },
+    "TER": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3
+    },
+    "USE": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    }
+   }
+  },
+  {
+   "doc": "Netflix",
+   "sentences": 86,
+   "goldUnfair": 6,
+   "caught": [
+    {
+     "segmentId": "S35",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "we may change our service plans and the price of our service from time to time; however, any price changes or changes to our service plans will apply to you no earlier than 30 days following notice to you."
+    },
+    {
+     "segmentId": "S74",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "LAW"
+     ],
+     "text": "these terms of use shall be governed by and construed in accordance with the laws of the netherlands."
+    },
+    {
+     "segmentId": "S83",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "netflix may, from time to time, change these terms of use."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S12",
+     "gold": [
+      "TER"
+     ],
+     "text": "we reserve the right to revoke the free trial and put your account on hold in the event that we determine that you are not eligible."
+    },
+    {
+     "segmentId": "S45",
+     "gold": [
+      "CH"
+     ],
+     "text": "netflix regularly makes changes to the service, including the content library."
+    },
+    {
+     "segmentId": "S55",
+     "gold": [
+      "TER"
+     ],
+     "text": "we may terminate or restrict your use of our service if you violate these terms of use or are engaged in illegal or fraudulent use of the service."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S27",
+     "predicted": [
+      "TER"
+     ],
+     "text": "you can cancel your netflix membership at any time, and you will continue to have access to the netflix service through the end of your monthly billing period."
+    },
+    {
+     "segmentId": "S76",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "netflix does not accept unsolicited materials or ideas for netflix content, and is not responsible for the similarity of any of its content or programming in any media to materials or ideas transmitted to netflix."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S28",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "to the extent permitted by the applicable law, payments are non-refundable and we do not provide refunds or credits for any partial-month membership periods or unwatched netflix content.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S32",
+     "categories": [
+      "auto_renewal"
+     ],
+     "text": "if you signed up for netflix using your account with a third party as a payment method and wish to cancel your netflix membership, you may need to do so through such third party, for example by visiting your account with the applicable third party and turning off auto-renew, or unsubscribing from the netflix service through that third party.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S39",
+     "categories": [
+      "content_license"
+     ],
+     "text": "during your netflix membership we grant you a limited, non-exclusive, non-transferable, license to access the netflix service and view netflix content.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 1
+    },
+    "CR": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "J": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "LTD": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 0
+    },
+    "TER": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 2
+    },
+    "USE": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  {
+   "doc": "Dropbox",
+   "sentences": 121,
+   "goldUnfair": 18,
+   "caught": [
+    {
+     "segmentId": "S6",
+     "gold": [
+      "USE",
+      "PINC"
+     ],
+     "predicted": [
+      "PINC"
+     ],
+     "text": "by using our services, you're agreeing to be bound by these terms, our privacy policy and acceptable use policy."
+    },
+    {
+     "segmentId": "S51",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "we may change the fees in effect but will give you advance notice of these changes via a message to the email address associated with your account."
+    },
+    {
+     "segmentId": "S74",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in countries where exclusions or limitations of liability are allowed, dropbox, its affiliates, suppliers or distributors won't be liable for: i) any indirect, special, incidental, punitive, exemplary or consequential damages, or ii) any loss of use, data, business, or profits, regardless of legal theory."
+    },
+    {
+     "segmentId": "S84",
+     "gold": [
+      "J"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "you and dropbox agree that any judicial proceeding to resolve claims relating to these terms or the services will be brought in the federal or state courts of san francisco county, california, subject to the mandatory arbitration provisions below."
+    },
+    {
+     "segmentId": "S89",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "you and dropbox agree to resolve any claims relating to these terms or the services through final and binding arbitration by a single arbitrator, except as set forth under exceptions to agreement to arbitrate below."
+    },
+    {
+     "segmentId": "S103",
+     "gold": [
+      "J"
+     ],
+     "predicted": [
+      "A",
+      "J"
+     ],
+     "text": "if the agreement to arbitrate is found not to apply to you or your claim, you agree to the exclusive jurisdiction of the state and federal courts in san francisco county, california to resolve your claim."
+    },
+    {
+     "segmentId": "S116",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "we may revise these terms from time to time to better reflect: (a) changes to the law, (b) new regulatory requirements, or (c) improvements or enhancements made to our services."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S39",
+     "gold": [
+      "CR",
+      "TER"
+     ],
+     "text": "we reserve the right to delete or disable content alleged to be infringing and terminate accounts of repeat infringers."
+    },
+    {
+     "segmentId": "S50",
+     "gold": [
+      "CH",
+      "TER"
+     ],
+     "text": "if you don't pay for your paid account on time, we reserve the right to suspend it or reduce your storage to free space levels."
+    },
+    {
+     "segmentId": "S59",
+     "gold": [
+      "TER"
+     ],
+     "text": "we reserve the right to suspend or terminate your access to the services with notice to you if: (a) you're in breach of these terms, (b) you're using the services in a manner that would cause a real risk of harm or loss to us or other users, or (c) you don't have a paid account and haven't accessed our services for 12 consecutive months."
+    },
+    {
+     "segmentId": "S61",
+     "gold": [
+      "TER"
+     ],
+     "text": "if after such notice you fail to take the steps we ask of you, we'll terminate or suspend your access to the services."
+    },
+    {
+     "segmentId": "S62",
+     "gold": [
+      "TER"
+     ],
+     "text": "we won't provide notice before termination where: (a) you're in material breach of these terms, (b) doing so would cause us legal liability or compromise our ability to provide the services to our other users, or (c) we're prohibited from doing so by law."
+    },
+    {
+     "segmentId": "S72",
+     "gold": [
+      "LTD"
+     ],
+     "text": "in countries where the following types of exclusions aren't allowed, we're responsible to you only for losses and damages that are a reasonably foreseeable result of our failure to use reasonable care and skill or our breach of our contract with you."
+    },
+    {
+     "segmentId": "S75",
+     "gold": [
+      "LTD"
+     ],
+     "text": "these exclusions or limitations will apply regardless of whether or not dropbox or any of its affiliates has been warned of the possibility of such damages."
+    },
+    {
+     "segmentId": "S78",
+     "gold": [
+      "LTD"
+     ],
+     "text": "other than for the types of liability we can not limit by law (as described in this section), we limit our liability to you to the greater of $ 20 usd or 100% of any amount you've paid under your current service plan with dropbox."
+    },
+    {
+     "segmentId": "S85",
+     "gold": [
+      "J"
+     ],
+     "text": "both you and dropbox consent to venue and personal jurisdiction in such courts."
+    },
+    {
+     "segmentId": "S107",
+     "gold": [
+      "LAW"
+     ],
+     "text": "these terms will be governed by california law except for its conflicts of laws principles."
+    },
+    {
+     "segmentId": "S121",
+     "gold": [
+      "USE"
+     ],
+     "text": "by continuing to use or access the services after the updates come into effect, you agree to be bound by the revised terms."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S46",
+     "predicted": [
+      "TER"
+     ],
+     "text": "you may cancel your dropbox paid account at any time."
+    },
+    {
+     "segmentId": "S69",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we also disclaim any warranties of merchantability, fitness for a particular purpose and non-infringement."
+    },
+    {
+     "segmentId": "S87",
+     "predicted": [
+      "A"
+     ],
+     "text": "if you're a u.s. resident, you also agree to the following mandatory arbitration provisions:"
+    },
+    {
+     "segmentId": "S88",
+     "predicted": [
+      "A"
+     ],
+     "text": "we both agree to arbitrate."
+    },
+    {
+     "segmentId": "S90",
+     "predicted": [
+      "A"
+     ],
+     "text": "this includes disputes arising out of or relating to interpretation or application of this \"mandatory arbitration provisions\" section, including its enforceability, revocability, or validity."
+    },
+    {
+     "segmentId": "S91",
+     "predicted": [
+      "A"
+     ],
+     "text": "opt-out of agreement to arbitrate."
+    },
+    {
+     "segmentId": "S92",
+     "predicted": [
+      "A"
+     ],
+     "text": "you can decline this agreement to arbitrate by clicking here and submitting the opt-out form within 30 days of first registering your account."
+    },
+    {
+     "segmentId": "S93",
+     "predicted": [
+      "A"
+     ],
+     "text": "however, if you agreed to a previous version of these terms that allowed you to opt out of arbitration, your previous choice to opt out or not opt out remains binding."
+    },
+    {
+     "segmentId": "S94",
+     "predicted": [
+      "A"
+     ],
+     "text": "the american arbitration association (aaa) will administer the arbitration under its commercial arbitration rules and the supplementary procedures for consumer related disputes."
+    },
+    {
+     "segmentId": "S95",
+     "predicted": [
+      "A"
+     ],
+     "text": "the arbitration will be held in the united states county where you live or work, san francisco (ca), or any other location we agree to."
+    },
+    {
+     "segmentId": "S96",
+     "predicted": [
+      "A"
+     ],
+     "text": "the aaa rules will govern payment of all arbitration fees."
+    },
+    {
+     "segmentId": "S97",
+     "predicted": [
+      "A"
+     ],
+     "text": "dropbox will pay all arbitration fees for individual arbitration for claims less than $ 75,000."
+    },
+    {
+     "segmentId": "S98",
+     "predicted": [
+      "A"
+     ],
+     "text": "if you receive an arbitration award that is more favorable than any offer we make to resolve the claim, we will pay you $ 1,000 in addition to the award."
+    },
+    {
+     "segmentId": "S99",
+     "predicted": [
+      "A"
+     ],
+     "text": "dropbox will not seek its attorneys ' fees and costs in arbitration unless the arbitrator determines that your claim is frivolous."
+    },
+    {
+     "segmentId": "S100",
+     "predicted": [
+      "A"
+     ],
+     "text": "exceptions to agreement to arbitrate."
+    },
+    {
+     "segmentId": "S102",
+     "predicted": [
+      "A"
+     ],
+     "text": "either party may bring a lawsuit solely for injunctive relief to stop unauthorized use or abuse of the services, or intellectual property infringement (for example, trademark, trade secret, copyright, or patent rights) without first engaging in arbitration or the informal dispute-resolution process described above."
+    },
+    {
+     "segmentId": "S106",
+     "predicted": [
+      "A"
+     ],
+     "text": "if this specific paragraph is held unenforceable, then the entirety of this \"mandatory arbitration provisions\" section will be deemed void."
+    }
+   ],
+   "outOfTaxonomy": [],
+   "perCode": {
+    "A": {
+     "tp": 1,
+     "fp": 17,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 1
+    },
+    "CR": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "J": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2
+    },
+    "LAW": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "LTD": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 3
+    },
+    "TER": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 5
+    },
+    "USE": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2
+    },
+    "PINC": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  {
+   "doc": "Pinterest",
+   "sentences": 132,
+   "goldUnfair": 22,
+   "caught": [
+    {
+     "segmentId": "S4",
+     "gold": [
+      "USE",
+      "PINC"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "by accessing or using pinterest, you agree to be bound by these terms, our privacy policy, our cookies policy and our community guidelines."
+    },
+    {
+     "segmentId": "S33",
+     "gold": [
+      "CR"
+     ],
+     "predicted": [
+      "CR"
+     ],
+     "text": "we reserve the right to remove or modify user content, or change the way it's used in pinterest, for any reason."
+    },
+    {
+     "segmentId": "S59",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "pinterest may terminate or suspend your right to access or use pinterest for any reason on appropriate notice."
+    },
+    {
+     "segmentId": "S60",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "we may terminate or suspend your access immediately and without notice if we have a good reason, including any violation of our community guidelines."
+    },
+    {
+     "segmentId": "S75",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "to the maximum extent permitted by law, pinterest shall not be liable for any indirect, incidental, special, consequential or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from (a) your access to or use of or inability to access or use the service; (b) any conduct or content of any third party on the service, including without limitation, any defamatory, offensive or illegal conduct of other users or third parties; or (c) unauthorized access, use or alteration of your transmissions or content."
+    },
+    {
+     "segmentId": "S76",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in no event shall pinterest's aggregate liability for all claims relating to the service exceed one hundred u.s. dollars (u.s. $ 100.00)."
+    },
+    {
+     "segmentId": "S80",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "this limitation of liability won't apply to any statutory liability that can not be limited, to liability for death or personal injury caused by our negligence or willful misconduct, or if and to exclude our responsibility for something we have specifically promised to you."
+    },
+    {
+     "segmentId": "S82",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we're not liable for various things."
+    },
+    {
+     "segmentId": "S86",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "if pinterest hasn't been able to resolve the dispute with you informally, we each agree to resolve any claim, dispute, or controversy (excluding claims for injunctive or other equitable relief) arising out of or in connection with or relating to these terms through binding arbitration or (for qualifying claims) in small claims court."
+    },
+    {
+     "segmentId": "S90",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "you agree that, by agreeing to these terms of service, the u.s. federal arbitration act governs the interpretation and enforcement of this provision, and that you and pinterest are each waiving the right to a trial by jury or to participate in a class action."
+    },
+    {
+     "segmentId": "S91",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "the arbitrator has exclusive authority to resolve any dispute relating to the interpretation, applicability, or enforceability of this binding arbitration agreement."
+    },
+    {
+     "segmentId": "S93",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "any arbitration will be administered by the american arbitration association (\"aaa\") under the consumer arbitration rules then in effect for the aaa, except as provided herein."
+    },
+    {
+     "segmentId": "S106",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "LAW"
+     ],
+     "text": "these terms shall be governed by the laws of the state of california, without respect to its conflict of laws principles."
+    },
+    {
+     "segmentId": "S116",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "we may revise these terms from time to time and the most current version will always be posted on our website."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S34",
+     "gold": [
+      "CR"
+     ],
+     "text": "this includes user content that we believe violates these terms, our community guidelines, or any other policies."
+    },
+    {
+     "segmentId": "S78",
+     "gold": [
+      "LTD"
+     ],
+     "text": "instead, pinterest's liability will be limited to foreseeable damages arising due to a breach of material contractual obligations typical for this type of contract."
+    },
+    {
+     "segmentId": "S79",
+     "gold": [
+      "LTD"
+     ],
+     "text": "pinterest isn't liable for damages that result from a non-material breach of any other applicable duty of care."
+    },
+    {
+     "segmentId": "S98",
+     "gold": [
+      "A"
+     ],
+     "text": "if your claim exceeds $ 10,000, the right to a hearing will be determined by the aaa rules."
+    },
+    {
+     "segmentId": "S107",
+     "gold": [
+      "J",
+      "LAW"
+     ],
+     "text": "if you are not a consumer in the eea, the exclusive place of jurisdiction for all disputes arising from or in connection with this agreement is san francisco county, california, or the united states district court for the northern district of california and our dispute will be determined under california law."
+    },
+    {
+     "segmentId": "S118",
+     "gold": [
+      "USE"
+     ],
+     "text": "by continuing to access or use pinterest after revisions become effective, you agree to be bound by the new terms."
+    },
+    {
+     "segmentId": "S119",
+     "gold": [
+      "USE"
+     ],
+     "text": "if you don't agree to the new terms, please stop using pinterest."
+    },
+    {
+     "segmentId": "S127",
+     "gold": [
+      "PINC"
+     ],
+     "text": "these terms, together with the privacy policy and any amendments and any additional agreements you may enter into with pinterest shall constitute the entire agreement between you and pinterest concerning the service."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S20",
+     "predicted": [
+      "CH"
+     ],
+     "text": "you agree that we may automatically update that software, and these terms will apply to any updates."
+    },
+    {
+     "segmentId": "S58",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "most of that stuff is awesome, but we're not responsible when it's not."
+    },
+    {
+     "segmentId": "S67",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "our service and all content on pinterest is provided on an \"as is\" basis without warranty of any kind, whether express or implied."
+    },
+    {
+     "segmentId": "S68",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "pinterest specifically disclaims any and all warranties and conditions of merchantability, fitness for a particular purpose, and non-infringement, and any warranties arising out of course of dealing or usage of trade."
+    },
+    {
+     "segmentId": "S87",
+     "predicted": [
+      "A"
+     ],
+     "text": "arbitration is a more informal way to resolve our disagreements than a lawsuit in court."
+    },
+    {
+     "segmentId": "S88",
+     "predicted": [
+      "A"
+     ],
+     "text": "for instance, arbitration uses a neutral arbitrator instead of a judge or jury, involves more limited discovery, and is subject to very limited review by courts."
+    },
+    {
+     "segmentId": "S89",
+     "predicted": [
+      "A"
+     ],
+     "text": "although the process is more informal, arbitrators can award the same damages and relief that a court can award."
+    },
+    {
+     "segmentId": "S92",
+     "predicted": [
+      "A"
+     ],
+     "text": "this arbitration provision shall survive termination of this agreement and the termination of your pinterest account."
+    },
+    {
+     "segmentId": "S95",
+     "predicted": [
+      "A"
+     ],
+     "text": "unless you and pinterest agree otherwise, the arbitration will be conducted in the county (or parish) where you reside."
+    },
+    {
+     "segmentId": "S96",
+     "predicted": [
+      "A"
+     ],
+     "text": "each party will be responsible for paying any aaa filing, administrative and arbitrator fees in accordance with aaa rules, except that pinterest will pay for your reasonable filing, administrative, and arbitrator fees if your claim for damages does not exceed $ 75,000 and is non-frivolous (as measured by the standards set forth in federal rule of civil procedure 11 (b))."
+    },
+    {
+     "segmentId": "S97",
+     "predicted": [
+      "A"
+     ],
+     "text": "if your claim is for $ 10,000 or less, we agree that you may choose whether the arbitration will be conducted solely on the basis of documents submitted to the arbitrator, through a telephonic hearing, or by an in-person hearing as established by the aaa rules."
+    },
+    {
+     "segmentId": "S99",
+     "predicted": [
+      "A"
+     ],
+     "text": "regardless of the manner in which the arbitration is conducted, the arbitrator shall issue a reasoned written decision explaining the essential findings and conclusions on which the award is based, and any judgment on the award rendered by the arbitrator may be entered in any court of competent jurisdiction."
+    },
+    {
+     "segmentId": "S101",
+     "predicted": [
+      "A"
+     ],
+     "text": "all claims must be brought in the parties ' individual capacity, and not as a plaintiff or class member in any purported class or representative proceeding, and, unless we agree otherwise, the arbitrator may not consolidate more than one person's claims."
+    },
+    {
+     "segmentId": "S102",
+     "predicted": [
+      "A"
+     ],
+     "text": "you agree that, by entering into these terms, you and pinterest are each waiving the right to a trial by jury or to participate in a class action."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S21",
+     "categories": [
+      "content_license"
+     ],
+     "text": "subject to these terms and our policies (including our community guidelines), we grant you a limited, non-exclusive, non-transferable, and revocable license to use our service.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S31",
+     "categories": [
+      "content_license"
+     ],
+     "text": "you grant pinterest and our users a non-exclusive, royalty-free, transferable, sublicensable, worldwide license to use, store, display, reproduce, save, modify, create derivative works, perform, and distribute your user content on pinterest solely for the purposes of operating, developing, providing, and using pinterest.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 4,
+     "fp": 10,
+     "fn": 1
+    },
+    "CH": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 0
+    },
+    "CR": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1
+    },
+    "J": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1
+    },
+    "LTD": {
+     "tp": 4,
+     "fp": 3,
+     "fn": 2
+    },
+    "TER": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 0
+    },
+    "USE": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2
+    }
+   }
+  },
+  {
+   "doc": "WhatsApp",
+   "sentences": 98,
+   "goldUnfair": 14,
+   "caught": [
+    {
+     "segmentId": "S8",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "if you are a whatsapp user located in the united states or canada, our terms contain a binding arbitration provision, which states that, except if you opt out and except for certain types of disputes, whatsapp and you agree to resolve all disputes through binding individual arbitration, which means that you waive any right to have those disputes decided by a judge or jury, and that you waive your right to participate in class actions, class arbitrations, or representative actions."
+    },
+    {
+     "segmentId": "S57",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "the whatsapp parties will not be liable to you for any lost profits or consequential, special, punitive, indirect, or incidental damages relating to, arising out of, or in any way in connection with our terms, us, or our services, even if the whatsapp parties have been advised of the possibility of such damages."
+    },
+    {
+     "segmentId": "S58",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "our aggregate liability relating to, arising out of, or in any way in connection with our terms, us, or our services will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months."
+    },
+    {
+     "segmentId": "S59",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "the foregoing disclaimer of certain damages and limitation of liability will apply to the maximum extent permitted by applicable law."
+    },
+    {
+     "segmentId": "S66",
+     "gold": [
+      "J"
+     ],
+     "predicted": [
+      "A",
+      "J"
+     ],
+     "text": "if you are not subject to the \"special arbitration provision for united states or canada users\" section below, you agree that you will resolve any claim you have with us relating to, arising out of, or in any way in connection with our terms, us, or our services (each, a \"dispute,\" and together, \"disputes\") exclusively in the united states district court for the northern district of california or a state court located in san mateo county in california, and you agree to submit to the personal jurisdiction of such courts for the purpose of litigating all such disputes."
+    },
+    {
+     "segmentId": "S67",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "A",
+      "LAW"
+     ],
+     "text": "the laws of the state of california govern our terms, as well as any disputes, whether in court or arbitration, which might arise between whatsapp and you, without regard to conflict of law provisions."
+    },
+    {
+     "segmentId": "S72",
+     "gold": [
+      "CH",
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "we may modify, suspend, or terminate your access to or use of our services anytime for any reason, such as if you violate the letter or spirit of our terms or create harm, risk, or possible legal exposure for us, our users, or others."
+    },
+    {
+     "segmentId": "S85",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "we may amend or update these terms."
+    },
+    {
+     "segmentId": "S87",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "your continued use of our services confirms your acceptance of our terms, as amended."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S4",
+     "gold": [
+      "USE"
+     ],
+     "text": "you agree to our terms of service (\"terms\") by installing, accessing, or using our apps, services, features, software, or website (together, \"services\")."
+    },
+    {
+     "segmentId": "S24",
+     "gold": [
+      "USE",
+      "PINC"
+     ],
+     "text": "you agree to our data practices, including the collection, use, processing, and sharing of your information as described in our privacy policy, as well as the transfer and processing of your information to the united states and other countries globally where we have or use facilities, service providers, or partners, regardless of where you use our services."
+    },
+    {
+     "segmentId": "S49",
+     "gold": [
+      "TER"
+     ],
+     "text": "we may terminate your whatsapp account if you repeatedly infringe the intellectual property rights of others."
+    },
+    {
+     "segmentId": "S61",
+     "gold": [
+      "LTD"
+     ],
+     "text": "notwithstanding anything to the contrary in our terms, in such cases, the liability of the whatsapp parties will be limited to the fullest extent permitted by applicable law."
+    },
+    {
+     "segmentId": "S70",
+     "gold": [
+      "TER"
+     ],
+     "text": "we may discontinue some or all of our services, including certain features and the support for certain devices and platforms, at any time."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S9",
+     "predicted": [
+      "A"
+     ],
+     "text": "please read the \"special arbitration provision for united states or canada users\" section below to learn more."
+    },
+    {
+     "segmentId": "S53",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we do not control, and are not responsible for, controlling how or when our users use our services or the features, services, and interfaces our services provide."
+    },
+    {
+     "segmentId": "S54",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we are not responsible for and are not obligated to control the actions or information (including content) of our users or other third parties."
+    },
+    {
+     "segmentId": "S64",
+     "predicted": [
+      "A"
+     ],
+     "text": "if you are a whatsapp user located in the united states or canada, the \"special arbitration provision for united states or canada users\" section below applies to you."
+    },
+    {
+     "segmentId": "S73",
+     "predicted": [
+      "A",
+      "LTD"
+     ],
+     "text": "the following provisions will survive any termination of your relationship with whatsapp: \"licenses,\" \"disclaimers,\" \"limitation of liability,\" \"indemnification,\" \"dispute resolution,\" \"availability and termination of our services,\" \"other,\" and \"special arbitration provision for united states or canada users.\""
+    },
+    {
+     "segmentId": "S95",
+     "predicted": [
+      "A"
+     ],
+     "text": "if any provision of these terms is deemed unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from our terms and shall not affect the validity and enforceability of the remaining provisions, except as set forth in the \"special arbitration provision for united states or canada users\" -- \"severability\" section below."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S41",
+     "categories": [
+      "content_license"
+     ],
+     "text": "in order to operate and provide our services, you grant whatsapp a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, create derivative works of, display, and perform the information (including the content) that you upload, submit, store, send, or receive on or through our services.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S42",
+     "categories": [
+      "tracking_profiling"
+     ],
+     "text": "the rights you grant in this license are for the limited purpose of operating and providing our services (such as to allow us to display your profile picture and status message, transmit your messages, store your undelivered messages on our servers for up to 30 days as we try to deliver them, and otherwise as described in our privacy policy).",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S44",
+     "categories": [
+      "content_license"
+     ],
+     "text": "we grant you a limited, revocable, non-exclusive, non-sublicensable, and non-transferable license to use our services, subject to and in accordance with our terms.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S90",
+     "categories": [
+      "data_sharing"
+     ],
+     "text": "all of our rights and obligations under our terms are freely assignable by us to any of our affiliates or in connection with a merger, acquisition, restructuring, or sale of assets, or by operation of law or otherwise, and we may transfer your information to any of our affiliates, successor entities, or new owner.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 1,
+     "fp": 6,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 1
+    },
+    "CR": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "J": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "LTD": {
+     "tp": 3,
+     "fp": 3,
+     "fn": 1
+    },
+    "TER": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 2
+    },
+    "USE": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    }
+   }
+  },
+  {
+   "doc": "Reddit",
+   "sentences": 123,
+   "goldUnfair": 23,
+   "caught": [
+    {
+     "segmentId": "S8",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "by accessing or using our services, you agree to be bound by these terms."
+    },
+    {
+     "segmentId": "S9",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "if you do not agree to these terms, you may not access or use our services."
+    },
+    {
+     "segmentId": "S21",
+     "gold": [
+      "CH",
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "we reserve the right to modify, suspend, or discontinue the services (in whole or in part) at any time, with or without notice to you."
+    },
+    {
+     "segmentId": "S22",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "any future release, update, or other addition to functionality of the services will be subject to these terms, which may be updated from time to time."
+    },
+    {
+     "segmentId": "S23",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "you agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuation of the services or any part thereof."
+    },
+    {
+     "segmentId": "S39",
+     "gold": [
+      "CR"
+     ],
+     "predicted": [
+      "CR"
+     ],
+     "text": "although we have no obligation to screen, edit, or monitor your content, we may, in our sole discretion, delete or remove your content at any time and for any reason, including for a violation of these terms, a violation of our content policy, or if you otherwise create liability for us."
+    },
+    {
+     "segmentId": "S93",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in no event and under no theory of liability, including contract, tort, negligence, strict liability, warranty, or otherwise, will the reddit entities be liable to you for any indirect, consequential, exemplary, incidental, special, or punitive damages, or lost profits arising from or relating to these terms or the services, including those arising from or relating to content made available on the services that is alleged to be defamatory, offensive, or illegal."
+    },
+    {
+     "segmentId": "S95",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in no event will the aggregate liability of the reddit entities exceed the greater of one hundred u.s. dollars ($ 100) or any amount you paid reddit in the previous six months for the services giving rise to the claim."
+    },
+    {
+     "segmentId": "S97",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "the foregoing limitation of liability will apply to the fullest extent permitted by law in the applicable jurisdiction."
+    },
+    {
+     "segmentId": "S100",
+     "gold": [
+      "J",
+      "LAW"
+     ],
+     "predicted": [
+      "LAW"
+     ],
+     "text": "except for the government entities listed below: any claims arising out of or relating to these terms or the services will be governed by the laws of california, other than its conflict of laws rules; all disputes related to these terms or the services will be brought solely in the federal or state courts located in san francisco, california; and you consent to personal jurisdiction in these courts."
+    },
+    {
+     "segmentId": "S117",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "we may suspend or terminate your accounts, status as a moderator, or ability to access or use the services at any time for any or no reason, including for a violation of these terms or our content policy."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S37",
+     "gold": [
+      "CR"
+     ],
+     "text": "you also agree that we may remove metadata associated with your content, and you irrevocably waive any claims and assertions of moral rights or attribution with respect to your content."
+    },
+    {
+     "segmentId": "S73",
+     "gold": [
+      "CR",
+      "TER"
+     ],
+     "text": "we have a policy that includes the removal of any infringing materials from the services and for the termination, in appropriate circumstances, of users of our services who are repeat infringers."
+    },
+    {
+     "segmentId": "S77",
+     "gold": [
+      "CR"
+     ],
+     "text": "if we remove your content in response to a copyright or trademark notice, we will notify you via reddit's private messaging system."
+    },
+    {
+     "segmentId": "S94",
+     "gold": [
+      "LTD"
+     ],
+     "text": "access to, and use of, the services is at your own discretion and risk, and you will be solely responsible for any damage to your device or computer system, or loss of data resulting therefrom."
+    },
+    {
+     "segmentId": "S96",
+     "gold": [
+      "LTD"
+     ],
+     "text": "the limitations of this section will apply to any theory of liability, including those based on warranty, contract, statute, tort (including negligence) or otherwise, and even if the reddit entities have been advised of the possibility of any such damage, and even if any remedy set forth herein is found to have failed its essential purpose."
+    },
+    {
+     "segmentId": "S103",
+     "gold": [
+      "LAW"
+     ],
+     "text": "to the extent permitted by federal law, the laws of california (other than its conflict of law rules) will apply in the absence of applicable federal law."
+    },
+    {
+     "segmentId": "S104",
+     "gold": [
+      "J",
+      "LAW"
+     ],
+     "text": "all disputes related to these terms or the services will be brought solely in the federal or state courts located in san francisco, california."
+    },
+    {
+     "segmentId": "S105",
+     "gold": [
+      "CH"
+     ],
+     "text": "we may make changes to these terms from time to time."
+    },
+    {
+     "segmentId": "S106",
+     "gold": [
+      "CH"
+     ],
+     "text": "if we make changes, we will post the amended terms to our services and update the effective date above."
+    },
+    {
+     "segmentId": "S107",
+     "gold": [
+      "CH"
+     ],
+     "text": "if the changes, in our sole discretion, are material, we may also notify you by sending an email to the address associated with your account (if you have chosen to provide an email address) or by otherwise providing notice through our services."
+    },
+    {
+     "segmentId": "S108",
+     "gold": [
+      "USE"
+     ],
+     "text": "by continuing to access or use the services on or after the effective date of the revised terms, you agree to be bound by the revised terms."
+    },
+    {
+     "segmentId": "S109",
+     "gold": [
+      "USE"
+     ],
+     "text": "if you do not agree to the revised terms, you must stop accessing and using our services before the changes become effective."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S41",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "third-party content is not under our control, and we are not responsible for any of their websites, products, or services."
+    },
+    {
+     "segmentId": "S59",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we are not responsible for actions taken by the moderators."
+    },
+    {
+     "segmentId": "S83",
+     "predicted": [
+      "CH"
+     ],
+     "text": "reddit may change the fees or benefits associated with the premium features from time to time with reasonable advance notice; provided, however, that no advance notice will be required for temporary promotions, including temporary reductions in the fees associated with the premium features."
+    },
+    {
+     "segmentId": "S89",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "the services are provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement."
+    },
+    {
+     "segmentId": "S102",
+     "predicted": [
+      "LAW"
+     ],
+     "text": "if you are a u.s. federal government entity: any claims arising out of or relating to these terms or the services will be governed by the laws of the united states of america without reference to conflict of laws."
+    },
+    {
+     "segmentId": "S118",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "the following sections will survive any termination of these terms or of your accounts: 4 (your content), 6 (things you can not do), 10 (indemnity), 11 (disclaimers), 12 (limitation of liability), 13 (governing law and venue), 16 (termination), and 17 (miscellaneous)."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S15",
+     "categories": [
+      "content_license"
+     ],
+     "text": "reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the services solely as permitted by these terms.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S35",
+     "categories": [
+      "content_license"
+     ],
+     "text": "when your content is created with or submitted to the services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works from, distribute, perform, and display your content and any name, username, voice, or likeness provided in connection with your content in all media formats and channels now known or later developed.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 4
+    },
+    "CR": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 3
+    },
+    "J": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 2
+    },
+    "LTD": {
+     "tp": 4,
+     "fp": 4,
+     "fn": 2
+    },
+    "TER": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 1
+    },
+    "USE": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 2
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  {
+   "doc": "YouTube",
+   "sentences": 113,
+   "goldUnfair": 18,
+   "caught": [
+    {
+     "segmentId": "S18",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "your continued use of the service after the date the modified terms are posted will constitute your acceptance of the modified terms."
+    },
+    {
+     "segmentId": "S65",
+     "gold": [
+      "CR",
+      "TER"
+     ],
+     "predicted": [
+      "CR",
+      "TER"
+     ],
+     "text": "7.8 on becoming aware of any potential violation of these terms, youtube reserves the right (but shall have no obligation) to decide whether content complies with the content requirements set out in these terms and may remove such content and/or terminate a user's access for uploading content which is in violation of these terms at any time, without prior notice and at its sole discretion."
+    },
+    {
+     "segmentId": "S85",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "11.3 youtube may at any time terminate its legal agreement with you if: a.you have breached any provision of the terms (or have acted in manner which clearly shows that you do not intend to, or are unable to comply with the provisions of the terms); or b. youtube is required to do so by law (for example, where the provision of the service to you is, or becomes, unlawful); or"
+    },
+    {
+     "segmentId": "S97",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "13.2 subject to the overall provision in paragraph 13.1 above youtube shall not be liable to you for: a. any indirect or consequential losses which may be incurred by you."
+    },
+    {
+     "segmentId": "S112",
+     "gold": [
+      "J"
+     ],
+     "predicted": [
+      "J"
+     ],
+     "text": "you and youtube agree to submit to the exclusive jurisdiction of the courts of england to resolve any legal matter arising from the terms."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S3",
+     "gold": [
+      "PINC"
+     ],
+     "text": "1.2 your legal agreement with youtube is made up of (a) the terms and conditions set out in this document, (b) youtube's privacy policy (https://www.youtube.co.uk/t/privacy) and (c) youtube's community guidelines (https://www.youtube.co.uk/t/community_guidelines) (collectively called the \"terms\")."
+    },
+    {
+     "segmentId": "S14",
+     "gold": [
+      "CH"
+     ],
+     "text": "youtube reserves the right to make changes the terms from time to time, for example to address changes to the law or regulatory changes or changes to functionality offered through the service."
+    },
+    {
+     "segmentId": "S15",
+     "gold": [
+      "CH"
+     ],
+     "text": "therefore you must look at the terms regularly to check for such changes."
+    },
+    {
+     "segmentId": "S46",
+     "gold": [
+      "CH"
+     ],
+     "text": "you acknowledge and agree that the form and nature of the service which youtube provides may change from time to time without prior notice to you."
+    },
+    {
+     "segmentId": "S47",
+     "gold": [
+      "TER"
+     ],
+     "text": "5.5 as part of this continuing innovation, you acknowledge and agree that youtube may stop (permanently or temporarily) providing the service (or any features within the service) to you or to users generally at youtube's sole discretion, without prior notice to you."
+    },
+    {
+     "segmentId": "S53",
+     "gold": [
+      "TER"
+     ],
+     "text": "6.2 as part of youtube's copyright policy, youtube will terminate user access to the / service if a user has been determined to be a repeat infringer."
+    },
+    {
+     "segmentId": "S86",
+     "gold": [
+      "TER"
+     ],
+     "text": "11.4 youtube may terminate its legal agreement with you if: youtube is transitioning to no longer providing the service to users in the country in which you are resident or from which you use the service; or the provision of the service to you by youtube is, in youtube's opinion, no longer commercially viable and in the case of each of a and b of this clause 11.4 shall, where possible, give reasonable notice of such termination."
+    },
+    {
+     "segmentId": "S98",
+     "gold": [
+      "LTD"
+     ],
+     "text": "this shall include; (i) any loss of profit (whether incurred directly or indirectly); (ii) any loss of goodwill or business reputation; (iii) any loss of opportunity; or (iv) any loss of data suffered by you; b.any loss or damage which may be incurred by you as a result of: i.any reliance placed by you on the completeness, accuracy or existence of any advertising, or as a result of any relationship or transaction between you and any advertiser or sponsor whose advertising appears on the service; ii."
+    },
+    {
+     "segmentId": "S100",
+     "gold": [
+      "LTD"
+     ],
+     "text": "the deletion of, corruption of, or failure to store, any content and other communications data maintained or transmitted by or through your use of the service; iv."
+    },
+    {
+     "segmentId": "S101",
+     "gold": [
+      "LTD"
+     ],
+     "text": "your failure to provide youtube with accurate account information; v. your failure to keep your password or youtube account details secure and confidential."
+    },
+    {
+     "segmentId": "S102",
+     "gold": [
+      "LTD"
+     ],
+     "text": "13.3 the limitations on youtube's liability to you in paragraph 13.2 above shall apply whether or not youtube has been advised of or should have been aware of the possibility of any such losses arising."
+    },
+    {
+     "segmentId": "S111",
+     "gold": [
+      "LAW"
+     ],
+     "text": "14.6 the terms, and your relationship with youtube under the terms, shall be governed by english law."
+    },
+    {
+     "segmentId": "S113",
+     "gold": [
+      "J"
+     ],
+     "text": "notwithstanding this, you agree that youtube shall still be allowed to apply for injunctive remedies (or other equivalent types of urgent legal remedy) in any jurisdiction."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S60",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "youtube does not endorse any content or any opinion, recommendation, or advice expressed therein, and youtube expressly disclaims any and all liability in connection with content."
+    },
+    {
+     "segmentId": "S79",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "10.2 you acknowledge and agree that youtube is not responsible for the availability of any such external sites or resources, and does not endorse any advertising, products or other materials on or available from such web sites or resources."
+    },
+    {
+     "segmentId": "S80",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "10.3 you acknowledge and agree that youtube is not liable for any loss or damage which may be incurred by you as a result of the availability of those external sites or resources, or as a result of any reliance placed by you on the completeness, accuracy or existence of any advertising, products or other materials on, or available from, such web sites or resources."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S69",
+     "categories": [
+      "content_license"
+     ],
+     "text": "a. to youtube, a worldwide, non-exclusive, royalty-free, transferable licence (with right to sub-licence) to use, reproduce, distribute, prepare derivative works of, display, and perform that content in connection with the provision of the service and otherwise in connection with the provision of the service and youtube's business, including without limitation for promoting and redistributing part or all of the service (and derivative works thereof) in any media formats and through any media channels;",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S70",
+     "categories": [
+      "content_license"
+     ],
+     "text": "b. to each user of the service, a worldwide, non-exclusive, royalty-free licence to access your content through the service, and to use, reproduce, distribute, prepare derivative works of, display and perform such content to the extent permitted by the functionality of the service and under these terms.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 3
+    },
+    "CR": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "J": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1
+    },
+    "LAW": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "LTD": {
+     "tp": 1,
+     "fp": 3,
+     "fn": 4
+    },
+    "TER": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 3
+    },
+    "USE": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    }
+   }
+  },
+  {
+   "doc": "Facebook",
+   "sentences": 146,
+   "goldUnfair": 13,
+   "caught": [
+    {
+     "segmentId": "S7",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "by using or accessing the facebook services, you agree to this statement, as updated from time to time in accordance with section 13 below."
+    },
+    {
+     "segmentId": "S87",
+     "gold": [
+      "J"
+     ],
+     "predicted": [
+      "J"
+     ],
+     "text": "you will resolve any claim, cause of action or dispute (claim) you have with us arising out of or relating to this statement or facebook exclusively in the u.s. district court for the northern district of california or a state court located in san mateo county, and you agree to submit to the personal jurisdiction of such courts for the purpose of litigating all such claims."
+    },
+    {
+     "segmentId": "S88",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "LAW"
+     ],
+     "text": "the laws of the state of california will govern this statement, as well as any claim that might arise between you and us, without regard to conflict of law provisions."
+    },
+    {
+     "segmentId": "S98",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we will not be liable to you for any lost profits or other consequential, special, indirect, or incidental damages arising out of or in connection with this statement or facebook, even if we have been advised of the possibility of such damages."
+    },
+    {
+     "segmentId": "S99",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "our aggregate liability arising out of this statement or facebook will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months."
+    },
+    {
+     "segmentId": "S133",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "by using or accessing facebook services, you agree that we can collect and use such content and information in accordance with the data policy as amended from time to time."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S48",
+     "gold": [
+      "CR"
+     ],
+     "text": "if you select a username or similar identifier for your account or page, we reserve the right to remove or reclaim it if we believe it is appropriate (such as when a trademark owner complains about a username that does not closely relate to a user's actual name)."
+    },
+    {
+     "segmentId": "S51",
+     "gold": [
+      "CR"
+     ],
+     "text": "we can remove any content or information you post on facebook if we believe that it violates this statement or our policies."
+    },
+    {
+     "segmentId": "S55",
+     "gold": [
+      "TER"
+     ],
+     "text": "if you repeatedly infringe other people's intellectual property rights, we will disable your account when appropriate."
+    },
+    {
+     "segmentId": "S64",
+     "gold": [
+      "USE"
+     ],
+     "text": "if you make a payment on facebook, you agree to our payments terms unless it is stated that other terms apply."
+    },
+    {
+     "segmentId": "S82",
+     "gold": [
+      "USE"
+     ],
+     "text": "your continued use of the facebook services, following notice of the changes to our terms, policies or guidelines, constitutes your acceptance of our amended terms, policies or guidelines."
+    },
+    {
+     "segmentId": "S83",
+     "gold": [
+      "TER"
+     ],
+     "text": "if you violate the letter or spirit of this statement, or otherwise create risk or possible legal exposure for us, we can stop providing all or part of facebook to you."
+    },
+    {
+     "segmentId": "S101",
+     "gold": [
+      "LTD"
+     ],
+     "text": "in such cases, facebook's liability will be limited to the fullest extent permitted by applicable law."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S90",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "although we provide rules for user conduct, we do not control or direct users ' actions on facebook and are not responsible for the content or information users transmit or share on facebook."
+    },
+    {
+     "segmentId": "S91",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we are not responsible for any offensive, inappropriate, obscene, unlawful or otherwise objectionable content or information you may encounter on facebook."
+    },
+    {
+     "segmentId": "S92",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "we are not responsible for the conduct, whether online or offline, of any user of facebook."
+    },
+    {
+     "segmentId": "S96",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "facebook is not responsible for the actions, content, information, or data of third parties, and you release us, our directors, officers, employees, and agents from any claims and damages, known and unknown, arising out of or in any way connected with any claim you have against any such third parties."
+    },
+    {
+     "segmentId": "S100",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "applicable law may not allow the limitation or exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S15",
+     "categories": [
+      "content_license"
+     ],
+     "text": "for content that is covered by intellectual property rights, like photos and videos (ip content), you specifically give us the following permission, subject to your privacy and application settings: you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any ip content that you post on or in connection with facebook (ip license).",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S71",
+     "categories": [
+      "tracking_profiling"
+     ],
+     "text": "this means, for example, that you permit a business or other entity to pay us to display your name and/or profile picture with your content or information, without any compensation to you.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "CR": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2
+    },
+    "J": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "LTD": {
+     "tp": 2,
+     "fp": 5,
+     "fn": 1
+    },
+    "TER": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 2
+    },
+    "USE": {
+     "tp": 2,
+     "fp": 0,
+     "fn": 2
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  {
+   "doc": "Uber",
+   "sentences": 118,
+   "goldUnfair": 14,
+   "caught": [
+    {
+     "segmentId": "S4",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "USE"
+     ],
+     "text": "your access and use of the services constitutes your agreement to be bound by these terms, which establishes a contractual relationship between you and uber."
+    },
+    {
+     "segmentId": "S11",
+     "gold": [
+      "CH"
+     ],
+     "predicted": [
+      "CH"
+     ],
+     "text": "uber may amend the terms related to the services from time to time."
+    },
+    {
+     "segmentId": "S27",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "uber does not endorse such third party services and content and in no event shall uber be responsible or liable for any products or services of such third party providers."
+    },
+    {
+     "segmentId": "S57",
+     "gold": [
+      "CR"
+     ],
+     "predicted": [
+      "CR"
+     ],
+     "text": "uber may, but shall not be obligated to, review, monitor, or remove user content, at uber's sole discretion and at any time and for any reason, without notice to you."
+    },
+    {
+     "segmentId": "S91",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "uber shall not be liable for indirect, incidental, special, exemplary, punitive or consequential damages, including lost profits, lost data, personal injury or property damage related to, in connection with, or otherwise resulting from any use of the services, even if uber has been advised of the possibility of such damages."
+    },
+    {
+     "segmentId": "S92",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "uber shall not be liable for any damages, liability or losses arising out of: (i) your use of or reliance on the services or your inability to access or use the services; or (ii) any transaction or relationship between you and any third party provider, even if uber has been advised of the possibility of such damages."
+    },
+    {
+     "segmentId": "S93",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "uber shall not be liable for delay or failure in performance resulting from causes beyond uber's reasonable control."
+    },
+    {
+     "segmentId": "S95",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in no event shall uber's total liability to you in connection with the services for all damages, losses and causes of action exceed five hundred euros ($ 500)."
+    },
+    {
+     "segmentId": "S99",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "LAW"
+     ],
+     "text": "except as otherwise set forth in these terms, these terms shall be exclusively governed by and construed in accordance with the laws of the netherlands, excluding its rules on conflicts of laws."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S7",
+     "gold": [
+      "TER"
+     ],
+     "text": "uber may immediately terminate these terms or any services with respect to you, or generally cease offering or deny access to the services or any portion thereof, at any time for any reason."
+    },
+    {
+     "segmentId": "S13",
+     "gold": [
+      "USE"
+     ],
+     "text": "your continued access or use of the services after such posting constitutes your consent to be bound by the terms, as amended."
+    },
+    {
+     "segmentId": "S72",
+     "gold": [
+      "CH"
+     ],
+     "text": "as between you and uber, uber reserves the right to establish, remove and/or revise charges for any or all services or goods obtained through the use of the services at any time in uber's sole discretion."
+    },
+    {
+     "segmentId": "S96",
+     "gold": [
+      "LTD"
+     ],
+     "text": "uber's services may be used by you to request and schedule transportation, goods or logistics services with third party providers, but you agree that uber has no responsibility or liability to you related to any transportation, goods or logistics services provided to you by third party providers other than as expressly set forth in these terms."
+    },
+    {
+     "segmentId": "S101",
+     "gold": [
+      "A"
+     ],
+     "text": "any dispute, conflict, claim or controversy arising out of or broadly in connection with or relating to the services or these terms, including those relating to its validity, its construction or its enforceability (any \"dispute\") shall be first mandatorily submitted to mediation proceedings under the international chamber of commerce mediation rules (\"icc mediation rules\")."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S5",
+     "predicted": [
+      "USE"
+     ],
+     "text": "if you do not agree to these terms, you may not access or use the services."
+    },
+    {
+     "segmentId": "S29",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "these third party beneficiaries are not parties to this contract and are not responsible for the provision or support of the services in any manner."
+    },
+    {
+     "segmentId": "S69",
+     "predicted": [
+      "CH"
+     ],
+     "text": "uber will respond accordingly to any request from a third party provider to modify the charges for a particular service or good."
+    },
+    {
+     "segmentId": "S76",
+     "predicted": [
+      "TER"
+     ],
+     "text": "you may elect to cancel your request for services or goods from a third party provider at any time prior to such third party provider's arrival, in which case you may be charged a cancellation fee."
+    },
+    {
+     "segmentId": "S85",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "disclaimers; limitation of liability; indemnity."
+    },
+    {
+     "segmentId": "S86",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "the services are provided \"as is\" and \"as available.\""
+    },
+    {
+     "segmentId": "S87",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "uber disclaims all representations and warranties, express, implied or statutory, not expressly set out in these terms, including the implied warranties of merchantability, fitness for a particular purpose and non-infringement."
+    },
+    {
+     "segmentId": "S102",
+     "predicted": [
+      "A"
+     ],
+     "text": "if such dispute has not been settled within sixty (60) days after a request for mediation has been submitted under such icc mediation rules, such dispute can be referred to and shall be exclusively and finally resolved by arbitration under the rules of arbitration of the international chamber of commerce (\"icc arbitration rules\")."
+    },
+    {
+     "segmentId": "S103",
+     "predicted": [
+      "A"
+     ],
+     "text": "the icc rules ' emergency arbitrator provisions are excluded."
+    },
+    {
+     "segmentId": "S104",
+     "predicted": [
+      "A"
+     ],
+     "text": "the dispute shall be resolved by one (1) arbitrator to be appointed in accordance with the icc rules."
+    },
+    {
+     "segmentId": "S105",
+     "predicted": [
+      "A"
+     ],
+     "text": "the place of both mediation and arbitration shall be amsterdam, the netherlands, without prejudice to any rights you may have under article 18 of the brussels i bis regulation (oj eu 2012 l351/1) and/or article 6:236 n of the dutch civil code."
+    },
+    {
+     "segmentId": "S106",
+     "predicted": [
+      "A"
+     ],
+     "text": "the language of the mediation and/or arbitration shall be english, unless you do not speak english, in which case the mediation and/or arbitration shall be conducted in both english and your native language."
+    },
+    {
+     "segmentId": "S107",
+     "predicted": [
+      "A"
+     ],
+     "text": "the existence and content of the mediation and arbitration proceedings, including documents and briefs submitted by the parties, correspondence from and to the international chamber of commerce, correspondence from the mediator, and correspondence, orders and awards issued by the sole arbitrator, shall remain strictly confidential and shall not be disclosed to any third party without the express written consent from the other party unless: (i) the disclosure to the third party is reasonably required in the context of conducting the mediation or arbitration proceedings; and (ii) the third party agrees unconditionally in writing to be bound by the confidentiality obligation stipulated herein."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S19",
+     "categories": [
+      "content_license"
+     ],
+     "text": "subject to your compliance with these terms, uber grants you a limited, non-exclusive, non-sublicensable, revocable, non-transferrable license to: (i) access and use the applications on your personal device solely in connection with your use of the services; and (ii) access and use any content, information and related materials that may be made available through the services, in each case solely for your personal, noncommercial use.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S54",
+     "categories": [
+      "content_license"
+     ],
+     "text": "however, by providing user content to uber, you grant uber a worldwide, perpetual, irrevocable, transferrable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such user content in all formats and distribution channels now known or hereafter devised (including in connection with the services and uber's business and on third-party sites and services), without further notice to or consent from you, and without the requirement of payment to you or any other person or entity.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S67",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "charges paid by you are final and non-refundable, unless otherwise determined by uber.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S76",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "you may elect to cancel your request for services or goods from a third party provider at any time prior to such third party provider's arrival, in which case you may be charged a cancellation fee.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S84",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "such amounts will be transferred by uber to the applicable third party provider and are non-refundable.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 0,
+     "fp": 6,
+     "fn": 1
+    },
+    "CH": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 1
+    },
+    "CR": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "J": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 0
+    },
+    "LTD": {
+     "tp": 5,
+     "fp": 4,
+     "fn": 1
+    },
+    "TER": {
+     "tp": 0,
+     "fp": 1,
+     "fn": 1
+    },
+    "USE": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 1
+    },
+    "PINC": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 0
+    }
+   }
+  },
+  {
+   "doc": "Tinder",
+   "sentences": 195,
+   "goldUnfair": 31,
+   "caught": [
+    {
+     "segmentId": "S9",
+     "gold": [
+      "USE",
+      "PINC"
+     ],
+     "predicted": [
+      "PINC"
+     ],
+     "text": "by creating a tinder account or by using the tinder imessage app (\"tinder stacks\"), whether through a mobile device, mobile application or computer (collectively, the \"service\") you agree to be bound by (i) these terms of use, (ii) our privacy policy and safety tips, each of which is incorporated by reference into this agreement, and (iii) any terms disclosed and agreed to by you if you purchase additional features, products or services we offer on the service (collectively, this \"agreement\")."
+    },
+    {
+     "segmentId": "S36",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "tinder may terminate your account at any time without notice if it believes that you have violated this agreement."
+    },
+    {
+     "segmentId": "S40",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "though tinder strives to encourage a respectful user experience through features like the double opt-in that only allows users to communicate if they have both indicated interest in one another, it is not responsible for the conduct of any user on or off of the services."
+    },
+    {
+     "segmentId": "S75",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "if we feel that your behavior towards any of our customer care representatives or other employees is at any time threatening or offensive, we reserve the right to immediately terminate your account."
+    },
+    {
+     "segmentId": "S102",
+     "gold": [
+      "TER"
+     ],
+     "predicted": [
+      "TER"
+     ],
+     "text": "if you initiate a chargeback or otherwise reverse a payment made with your payment method, tinder may terminate your account immediately in its sole discretion."
+    },
+    {
+     "segmentId": "S164",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "tinder is not responsible or liable for such third parties ' terms or actions."
+    },
+    {
+     "segmentId": "S165",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "to the fullest extent permitted by applicable law, in no event will tinder, its affiliates, employees, licensors or service providers be liable for any indirect, consequential, exemplary, incidental, special or punitive damages, including, without limitation, loss of profits, whether incurred directly or indirectly, or any loss of data, use, goodwill, or other intangible losses, resulting from: (i) your access to or use of or inability to access or use the services, (ii) the conduct or content of other users or third parties on, through, or following use of the services; or (iii) unauthorized access, use or alteration of your content, even if tinder has been advised of the possibility of such damages."
+    },
+    {
+     "segmentId": "S166",
+     "gold": [
+      "LTD"
+     ],
+     "predicted": [
+      "LTD"
+     ],
+     "text": "in no event will tinder's aggregate liability to you for all claims relating to the service exceed the amount paid, if any, by you to tinder for the service while you have an account."
+    },
+    {
+     "segmentId": "S170",
+     "gold": [
+      "A"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "the exclusive means of resolving any dispute or claim arising out of or relating to this agreement (including any alleged breach thereof) or the service shall be binding arbitration administered by the american arbitration association under the consumer arbitration rules."
+    },
+    {
+     "segmentId": "S173",
+     "gold": [
+      "USE"
+     ],
+     "predicted": [
+      "A",
+      "USE"
+     ],
+     "text": "by using the service in any manner, you agree to the above arbitration agreement."
+    },
+    {
+     "segmentId": "S182",
+     "gold": [
+      "J"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "in the event that this arbitration agreement is for any reason held to be unenforceable, any litigation against the company (except for small-claims court actions) may be commenced only in the federal or state courts located in dallas county, texas."
+    },
+    {
+     "segmentId": "S184",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "A",
+      "LAW"
+     ],
+     "text": "this agreement, and any dispute between you and the company, shall be governed by the laws of the state of texas without regard to principles of conflicts of law, provided that this arbitration agreement shall be governed by the federal arbitration act."
+    },
+    {
+     "segmentId": "S187",
+     "gold": [
+      "LAW"
+     ],
+     "predicted": [
+      "A"
+     ],
+     "text": "for users residing in the eu or european economic area or elsewhere where our arbitration agreement is prohibited by law, the laws of texas, u.s.a., excluding texas's conflict of laws rules, will apply to any disputes arising out of or relating to this agreement or the services."
+    }
+   ],
+   "missed": [
+    {
+     "segmentId": "S10",
+     "gold": [
+      "USE"
+     ],
+     "text": "if you do not accept and agree to be bound by all of the terms of this agreement, please do not use the service."
+    },
+    {
+     "segmentId": "S11",
+     "gold": [
+      "CH"
+     ],
+     "text": "we may make changes to this agreement and to the services from time to time."
+    },
+    {
+     "segmentId": "S13",
+     "gold": [
+      "CH"
+     ],
+     "text": "the most recent version of this agreement will be posted on the services under settings and also on gotinder.com, and you should regularly check for the most recent version."
+    },
+    {
+     "segmentId": "S16",
+     "gold": [
+      "USE"
+     ],
+     "text": "if you continue to use the services after the changes become effective, then you agree to the revised agreement."
+    },
+    {
+     "segmentId": "S34",
+     "gold": [
+      "CH"
+     ],
+     "text": "this means we may add new product features or enhancements from time to time as well as remove some features, and if these actions do not materially affect your rights or obligations, we may not provide you with notice before taking them.we may even suspend the services entirely, in which event we will notify you in advance unless extenuating circumstances, such as safety or security concerns, prevent us from doing so."
+    },
+    {
+     "segmentId": "S65",
+     "gold": [
+      "TER"
+     ],
+     "text": "the company may investigate and take any available legal action in response to illegal and / or unauthorized uses of the service, including termination of your account."
+    },
+    {
+     "segmentId": "S73",
+     "gold": [
+      "CR"
+     ],
+     "text": "we may delete any content, in whole or in part, that in our sole judgment violates this agreement or may harm the reputation of the service."
+    },
+    {
+     "segmentId": "S90",
+     "gold": [
+      "TER"
+     ],
+     "text": "tinder reserves the right to investigate and / or terminate your account without a refund of any purchases if you have misused the service or behaved in a way that tinder regards as inappropriate or unlawful, including actions or communications that occur off the service but involve users you meet through the service."
+    },
+    {
+     "segmentId": "S91",
+     "gold": [
+      "CR",
+      "LTD"
+     ],
+     "text": "although tinder reserves the right to review and remove content that violates this agreement, such content is the sole responsibility of the user who posts it, and tinder can not guarantee that all content will comply with this agreement."
+    },
+    {
+     "segmentId": "S121",
+     "gold": [
+      "CR"
+     ],
+     "text": "virtual items do not incur fees for non-use, however, the license granted to you in virtual items will terminate in accordance with the terms of this agreement, when tinder ceases providing the service or your account is otherwise closed or terminated."
+    },
+    {
+     "segmentId": "S122",
+     "gold": [
+      "CH"
+     ],
+     "text": "tinder, in its sole discretion, reserves the right to charge fees for the right to access or use virtual items and / or may distribute virtual items with or without charge."
+    },
+    {
+     "segmentId": "S123",
+     "gold": [
+      "CH"
+     ],
+     "text": "tinder may manage, regulate, control, modify or eliminate virtual items at any time."
+    },
+    {
+     "segmentId": "S124",
+     "gold": [
+      "LTD"
+     ],
+     "text": "tinder shall have no liability to you or any third party in the event that tinder exercises any such rights."
+    },
+    {
+     "segmentId": "S128",
+     "gold": [
+      "USE"
+     ],
+     "text": "the provision of virtual items for use in the service is a service provided by tinder that commences immediately upon the acceptance of your purchase of such virtual items."
+    },
+    {
+     "segmentId": "S129",
+     "gold": [
+      "LTD"
+     ],
+     "text": "you acknowledge that tinder is not required to provide a refund for any reason, and that you will not receive money or other compensation for unused virtual items when an account is closed, whether such closure was voluntary or involuntary."
+    },
+    {
+     "segmentId": "S158",
+     "gold": [
+      "LTD"
+     ],
+     "text": "tinder does not represent or warrant that (a) the service will be uninterrupted, secure or error free, (b) any defects or errors in the service will be corrected, or (c) that any content or information you obtain on or through the services will be accurate."
+    },
+    {
+     "segmentId": "S159",
+     "gold": [
+      "LTD"
+     ],
+     "text": "tinder takes no responsibility for any content that you or another user or third party posts, sends or receives through the services."
+    },
+    {
+     "segmentId": "S191",
+     "gold": [
+      "PINC"
+     ],
+     "text": "this agreement, with the privacy policy, the safety tips and any terms disclosed and agreed to by you if you purchase additional features, products or services we offer on the service, contains the entire agreement between you and tinder regarding the use of the service."
+    }
+   ],
+   "falseAlarms": [
+    {
+     "segmentId": "S1",
+     "predicted": [
+      "TER"
+     ],
+     "text": "notice to california subscribers: you may cancel your subscription, without penalty or obligation, at any time prior to midnight of the third business day following the date you subscribed."
+    },
+    {
+     "segmentId": "S35",
+     "predicted": [
+      "TER"
+     ],
+     "text": "you may terminate your account at any time, for any reason, by following the instructions in \"settings\" in the service, however you will need to manage your in app purchases through your mobile device platform (e.g., itunes, google play)."
+    },
+    {
+     "segmentId": "S79",
+     "predicted": [
+      "USE"
+     ],
+     "text": "by using the services, you agree that you will not:"
+    },
+    {
+     "segmentId": "S109",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "if a payment is not successfully settled, due to expiration, insufficient funds, or otherwise, and you do not edit your payment method information or cancel your subscription, you remain responsible for any uncollected amounts and authorize us to continue billing the payment method, as it may be updated."
+    },
+    {
+     "segmentId": "S135",
+     "predicted": [
+      "TER"
+     ],
+     "text": "you may cancel your subscription, without penalty or obligation, at any time prior to midnight of the third business day following the date you subscribed."
+    },
+    {
+     "segmentId": "S157",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "tinder provides the service on an \"as is\" and \"as available\" basis and to the extent permitted by applicable law, grants no warranties of any kind, whether express, implied, statutory or otherwise with respect to the service (including all content contained therein), including, without limitation, any implied warranties of satisfactory quality, merchantability, fitness for a particular purpose or non-infringement."
+    },
+    {
+     "segmentId": "S162",
+     "predicted": [
+      "LTD"
+     ],
+     "text": "tinder is not responsible for the availability (or lack of availability) of such external websites or resources."
+    },
+    {
+     "segmentId": "S168",
+     "predicted": [
+      "A"
+     ],
+     "text": "arbitration, class-action waiver, and jury waiver."
+    },
+    {
+     "segmentId": "S171",
+     "predicted": [
+      "A"
+     ],
+     "text": "the one exception to the exclusivity of arbitration is that you have the right to bring an individual claim against the company in a small-claims court of competent jurisdiction."
+    },
+    {
+     "segmentId": "S172",
+     "predicted": [
+      "A"
+     ],
+     "text": "but whether you choose arbitration or small-claims court, you may not under any circumstances commence or maintain against the company any class action, class arbitration, or other representative action or proceeding."
+    },
+    {
+     "segmentId": "S175",
+     "predicted": [
+      "A"
+     ],
+     "text": "you also give up your right to participate in a class action or other class proceeding."
+    },
+    {
+     "segmentId": "S176",
+     "predicted": [
+      "A"
+     ],
+     "text": "your rights will be determined by a neutral arbitrator, not a judge or jury, and the arbitrator shall determine all issues regarding the arbitrability of the dispute."
+    },
+    {
+     "segmentId": "S177",
+     "predicted": [
+      "A"
+     ],
+     "text": "you are entitled to a fair hearing before the arbitrator."
+    },
+    {
+     "segmentId": "S178",
+     "predicted": [
+      "A"
+     ],
+     "text": "the arbitrator can grant any relief that a court can, but you should note that arbitration proceedings are usually simpler and more streamlined than trials and other judicial proceedings."
+    },
+    {
+     "segmentId": "S179",
+     "predicted": [
+      "A"
+     ],
+     "text": "decisions by the arbitrator are enforceable in court and may be overturned by a court only for very limited reasons."
+    },
+    {
+     "segmentId": "S180",
+     "predicted": [
+      "A"
+     ],
+     "text": "for details on the arbitration process, see our arbitration procedures."
+    },
+    {
+     "segmentId": "S181",
+     "predicted": [
+      "A"
+     ],
+     "text": "any proceeding to enforce this arbitration agreement, including any proceeding to confirm, modify, or vacate an arbitration award, may be commenced in any court of competent jurisdiction."
+    },
+    {
+     "segmentId": "S186",
+     "predicted": [
+      "A"
+     ],
+     "text": "tinder does not take part in dispute settlement procedures in front of a consumer arbitration entity for users residing in the eu or european economic area."
+    }
+   ],
+   "outOfTaxonomy": [
+    {
+     "segmentId": "S24",
+     "categories": [
+      "tracking_profiling"
+     ],
+     "text": "if you do so, you authorize us to access and use certain facebook account information, including but not limited to your public facebook profile and information about facebook friends you share in common with other tinder users.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S48",
+     "categories": [
+      "content_license"
+     ],
+     "text": "tinder grants you a personal, worldwide, royalty-free, non-assignable, nonexclusive, revocable, and non-sublicensable license to access and use the services.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S68",
+     "categories": [
+      "content_license"
+     ],
+     "text": "by creating an account, you grant to tinder a worldwide, transferable, sub-licensable, royalty-free, right and license to host, store, use, copy, display, reproduce, adapt, edit, publish, modify and distribute information you authorize us to access from facebook, as well as any information you post, upload, display or otherwise make available (collectively, \"post\") on the service or transmit to other users (collectively, \"content\").",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S96",
+     "categories": [
+      "auto_renewal"
+     ],
+     "text": "if you purchase an auto-recurring periodic subscription through an in app purchase, your iap account will be billed continuously for the subscription until you cancel.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S98",
+     "categories": [
+      "auto_renewal"
+     ],
+     "text": "if you do not wish your subscription to renew automatically, or if you want to change or terminate your subscription, you will need to log in to your iap account and follow instructions to cancel your subscription, even if you have otherwise deleted your account with us or if you have deleted the tinder application from your device.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S99",
+     "categories": [
+      "auto_renewal"
+     ],
+     "text": "deleting your account on tinder or deleting the tinder application from your device does not cancel your subscription; tinder will retain all funds charged to your iap account until you cancel your subscription through your iap account.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S104",
+     "categories": [
+      "auto_renewal"
+     ],
+     "text": "after your initial subscription commitment period, and again after any subsequent subscription period, your subscription will automatically continue for an additional equivalent period, at the price you agreed to when subscribing, until you cancel.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S106",
+     "categories": [
+      "auto_renewal"
+     ],
+     "text": "if you do not wish your account to renew automatically, or if you want to change or terminate your subscription, please log in and go to \"my profile\" on tinder online and follow the instructions.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S115",
+     "categories": [
+      "content_license"
+     ],
+     "text": "from time to time, you may be able to purchase, with \"real world\" money, a limited, personal, non-transferable, non-sublicensable, revocable license to use \"virtual items,\" including but not limited to super likes (collectively, \"virtual items\").",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S127",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "all purchases and redemptions of virtual items made through the service are final and non-refundable.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S130",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "generally, all charges for purchases are nonrefundable, and there are no refunds or credits for partially used periods.",
+     "goldUnfair": false
+    },
+    {
+     "segmentId": "S138",
+     "categories": [
+      "cancellation_refund"
+     ],
+     "text": "purchases of virtual items are final and non-refundable.",
+     "goldUnfair": false
+    }
+   ],
+   "perCode": {
+    "A": {
+     "tp": 1,
+     "fp": 15,
+     "fn": 0
+    },
+    "CH": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 5
+    },
+    "CR": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 3
+    },
+    "J": {
+     "tp": 0,
+     "fp": 0,
+     "fn": 1
+    },
+    "LAW": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1
+    },
+    "LTD": {
+     "tp": 4,
+     "fp": 3,
+     "fn": 5
+    },
+    "TER": {
+     "tp": 3,
+     "fp": 3,
+     "fn": 2
+    },
+    "USE": {
+     "tp": 1,
+     "fp": 1,
+     "fn": 4
+    },
+    "PINC": {
+     "tp": 1,
+     "fp": 0,
+     "fn": 1
+    }
+   }
+  }
+ ]
+}

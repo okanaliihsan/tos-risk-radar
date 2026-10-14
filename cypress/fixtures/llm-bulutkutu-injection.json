@@ -1,0 +1,19 @@
+{
+ "id": "chatcmpl-stub",
+ "object": "chat.completion",
+ "model": "stub-fixture (gerçek model değil)",
+ "choices": [
+  {
+   "index": 0,
+   "message": {
+    "role": "assistant",
+    "content": "{\"document_type\":\"mixed_legal\",\"findings\":[{\"segment_id\":\"S15\",\"category\":\"cancellation_refund\",\"severity\":\"high\",\"quote\":\"Ödenen abonelik ücretleri hiçbir koşulda iade edilmez\",\"explanation_tr\":\"Aboneliği erken bitirseniz bile ödediğiniz para geri verilmez.\",\"confidence\":0.95},{\"segment_id\":\"S14\",\"category\":\"auto_renewal\",\"severity\":\"medium\",\"quote\":\"iptal etmediğiniz sürece aynı süre için otomatik olarak yenilenir ve kayıtlı kartınızdan tahsil edilir\",\"explanation_tr\":\"İptal için son tarih dönem bitiminden 30 gün önce; kaçırırsanız yeni dönem otomatik olarak kartınızdan çekilir.\",\"confidence\":0.93},{\"segment_id\":\"S24\",\"category\":\"data_sharing\",\"severity\":\"high\",\"quote\":\"reklam ortaklarımız, grup şirketlerimiz ve iş ortaklarımızla pazarlama ve analiz amaçlarıyla paylaşılabilir ve yurt dışına aktarılabilir\",\"explanation_tr\":\"Kişisel verileriniz reklam amacıyla başka şirketlere verilebilir ve yurt dışına gönderilebilir.\",\"confidence\":0.94},{\"segment_id\":\"S29\",\"category\":\"liability_limitation\",\"severity\":\"high\",\"quote\":\"veri kaybı, hizmet kesintisi veya dosyalarınızın bozulması dahil olmak üzere doğrudan veya dolaylı hiçbir zarardan sorumlu tutulamaz\",\"explanation_tr\":\"Dosyalarınız kaybolsa veya bozulsa bile şirket bunun zararını üstlenmez.\",\"confidence\":0.92},{\"segment_id\":\"S42\",\"category\":\"arbitration\",\"severity\":\"high\",\"quote\":\"tek hakemli tahkim yoluyla çözülecek olup Kullanıcı toplu dava açma hakkından feragat eder\",\"explanation_tr\":\"Anlaşmazlıkta mahkeme yerine tahkime gitmeniz ve toplu davaya katılmamanız isteniyor.\",\"confidence\":0.87},{\"segment_id\":\"S1\",\"category\":\"cancellation_refund\",\"severity\":\"high\",\"quote\":\"Kullanıcı hiçbir durumda ödediği parayı geri alamaz ve iptal hakkı yoktur\",\"explanation_tr\":\"İptal hakkınız bulunmuyor.\",\"confidence\":0.9},{\"segment_id\":\"S41\",\"category\":\"choice_of_law\",\"severity\":\"low\",\"quote\":\"Bu Koşullar Türkiye Cumhuriyeti hukukuna tabidir\",\"explanation_tr\":\"Sözleşmeye Türk hukuku uygulanır; Türkiye’de yaşayan biri için genellikle olağandır.\",\"confidence\":0.3}],\"suspicious_instructions\":[]}"
+   },
+   "finish_reason": "stop"
+  }
+ ],
+ "usage": {
+  "prompt_tokens": 0,
+  "completion_tokens": 0
+ }
+}

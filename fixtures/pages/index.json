@@ -1,0 +1,6 @@
+[
+  { "file": "bulutkutu-kosullar.html", "label": "Bulutkutu — Türkçe ToS + abonelik (temiz)" },
+  { "file": "bulutkutu-kosullar-injection.html", "label": "Bulutkutu — gizli talimatlı (prompt injection)" },
+  { "file": "streamly-terms.html", "label": "Streamly — English subscription terms" },
+  { "file": "blog-post.html", "label": "Blog yazısı (sözleşme değil)" }
+]

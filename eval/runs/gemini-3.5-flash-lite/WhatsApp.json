@@ -1,0 +1,278 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/WhatsApp",
+ "title": "WhatsApp Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:19.342Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 3,
+    "points": 24
+   },
+   {
+    "category": "arbitration",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "data_sharing",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_termination",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "low",
+    "count": 1,
+    "points": 6
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S8",
+   "category": "arbitration",
+   "severity": "high",
+   "quote": "whatsapp and you agree to resolve all disputes through binding individual arbitration, which means that you waive any right to have those disputes decided by a judge or jury, and that you waive your right to participate in class actions, class arbitrations, or representative actions.",
+   "context": "if you are a whatsapp user located in the united states or canada, our terms contain a binding arbitration provision, which states that, except if you opt out and except for certain types of disputes, whatsapp and you agree to resolve all disputes through binding individual arbitration, which means that you waive any right to have those disputes decided by a judge or jury, and that you waive your right to participate in class actions, class arbitrations, or representative actions.",
+   "explanationTr": "ABD ve Kanada'daki kullanıcılar için uyuşmazlıklar mahkemede değil, bağlayıcı tahkim yoluyla çözülecek ve toplu dava hakkından vazgeçilmiş sayılacaktır.",
+   "confidence": 0.99,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S41",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "you grant whatsapp a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, create derivative works of, display, and perform the information (including the content) that you upload, submit, store, send, or receive",
+   "context": "in order to operate and provide our services, you grant whatsapp a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, create derivative works of, display, and perform the information (including the content) that you upload, submit, store, send, or receive on or through our services.",
+   "explanationTr": "Yüklediğiniz veya paylaştığınız içerikler üzerinde şirkete dünya çapında, telifsiz ve alt lisanslanabilir geniş bir kullanım hakkı vermiş olursunuz.",
+   "confidence": 0.99,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S66",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "you agree that you will resolve any claim you have with us relating to, arising out of, or in any way in connection with our terms, us, or our services (each, a \"dispute,\" and together, \"disputes\") exclusively in the united states district court for the northern district of california or a state court located in san mateo county in california",
+   "context": "if you are not subject to the \"special arbitration provision for united states or canada users\" section below, you agree that you will resolve any claim you have with us relating to, arising out of, or in any way in connection with our terms, us, or our services (each, a \"dispute,\" and together, \"disputes\") exclusively in the united states district court for the northern district of california or a state court located in san mateo county in california, and you agree to submit to the personal jurisdiction of such courts for the purpose of litigating all such disputes.",
+   "explanationTr": "Uyuşmazlıkların çözümünde yalnızca Kaliforniya'daki mahkemeler yetkili kılınmıştır.",
+   "confidence": 0.99,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S58",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "our aggregate liability relating to, arising out of, or in any way in connection with our terms, us, or our services will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months.",
+   "context": "our aggregate liability relating to, arising out of, or in any way in connection with our terms, us, or our services will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months.",
+   "explanationTr": "Şirketin olası zararlar için toplam sorumluluğu çok düşük bir tutarla sınırlandırılmıştır.",
+   "confidence": 0.98,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S87",
+   "category": "unilateral_change",
+   "severity": "high",
+   "quote": "your continued use of our services confirms your acceptance of our terms, as amended.",
+   "context": "your continued use of our services confirms your acceptance of our terms, as amended.",
+   "explanationTr": "Şartlarda yapılan değişikliklerden sonra hizmetleri kullanmaya devam etmeniz, yeni şartları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.98,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S51",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "we are providing our services on an \"as is\" basis without any express or implied warranties, including, but not limited to, warranties of merchantability, fitness for a particular purpose",
+   "context": "we are providing our services on an \"as is\" basis without any express or implied warranties, including, but not limited to, warranties of merchantability, fitness for a particular purpose, title, non-infringement, and freedom from computer virus or other harmful code.",
+   "explanationTr": "Hizmetler 'olduğu gibi' sunulmakta olup, her türlü zımni garanti ve sorumluluk reddedilmektedir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S67",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "the laws of the state of california govern our terms, as well as any disputes, whether in court or arbitration, which might arise between whatsapp and you",
+   "context": "the laws of the state of california govern our terms, as well as any disputes, whether in court or arbitration, which might arise between whatsapp and you, without regard to conflict of law provisions.",
+   "explanationTr": "Sözleşme ve çıkabilecek uyuşmazlıklar Kaliforniya eyaleti kanunlarına tabidir.",
+   "confidence": 0.99,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S62",
+   "category": "liability_limitation",
+   "severity": "medium",
+   "quote": "you agree to defend, indemnify, and hold harmless the whatsapp parties from and against all liabilities, damages, losses, and expenses of any kind (including reasonable legal fees and costs) relating to, arising out of, or in any way in connection with any of the following: (a) your access to or use of our services",
+   "context": "you agree to defend, indemnify, and hold harmless the whatsapp parties from and against all liabilities, damages, losses, and expenses of any kind (including reasonable legal fees and costs) relating to, arising out of, or in any way in connection with any of the following: (a) your access to or use of our services, including information provided in connection therewith; (b) your breach or alleged breach of our terms; or (c) any misrepresentation made by you.",
+   "explanationTr": "Hizmetleri kullanımınızdan kaynaklanan her türlü zarar ve masrafa karşı şirketi tazmin etmeyi kabul edersiniz.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S72",
+   "category": "unilateral_termination",
+   "severity": "medium",
+   "quote": "we may modify, suspend, or terminate your access to or use of our services anytime for any reason",
+   "context": "we may modify, suspend, or terminate your access to or use of our services anytime for any reason, such as if you violate the letter or spirit of our terms or create harm, risk, or possible legal exposure for us, our users, or others.",
+   "explanationTr": "Şirket, herhangi bir gerekçeyle hizmetlere erişiminizi askıya alabilir veya sonlandırabilir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S24",
+   "category": "data_sharing",
+   "severity": "medium",
+   "quote": "you agree to our data practices, including the collection, use, processing, and sharing of your information as described in our privacy policy, as well as the transfer and processing of your information to the united states and other countries globally",
+   "context": "you agree to our data practices, including the collection, use, processing, and sharing of your information as described in our privacy policy, as well as the transfer and processing of your information to the united states and other countries globally where we have or use facilities, service providers, or partners, regardless of where you use our services.",
+   "explanationTr": "Bilgilerinizin gizlilik politikasına uygun olarak toplanmasını, işlenmesini ve Amerika Birleşik Devletleri dahil küresel çapta aktarılmasını kabul etmiş olursunuz.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S4",
+   "category": "contract_by_using",
+   "severity": "low",
+   "quote": "you agree to our terms of service (\"terms\") by installing, accessing, or using our apps, services, features, software, or website (together, \"services\").",
+   "context": "you agree to our terms of service (\"terms\") by installing, accessing, or using our apps, services, features, software, or website (together, \"services\").",
+   "explanationTr": "Hizmetleri kullanmak veya yüklemek, bu koşulları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S9",
+   "category": "arbitration",
+   "text": "please read the \"special arbitration provision for united states or canada users\" section below to learn more."
+  },
+  {
+   "segmentId": "S53",
+   "category": "liability_limitation",
+   "text": "we do not control, and are not responsible for, controlling how or when our users use our services or the features, services, and interfaces our services provide."
+  },
+  {
+   "segmentId": "S54",
+   "category": "liability_limitation",
+   "text": "we are not responsible for and are not obligated to control the actions or information (including content) of our users or other third parties."
+  },
+  {
+   "segmentId": "S57",
+   "category": "liability_limitation",
+   "text": "the whatsapp parties will not be liable to you for any lost profits or consequential, special, punitive, indirect, or incidental damages relating to, arising out of, or in any way in connection with our terms, us, or our services, even if the whatsapp parties have been advised of the possibility of such damages."
+  },
+  {
+   "segmentId": "S59",
+   "category": "liability_limitation",
+   "text": "the foregoing disclaimer of certain damages and limitation of liability will apply to the maximum extent permitted by applicable law."
+  },
+  {
+   "segmentId": "S64",
+   "category": "arbitration",
+   "text": "if you are a whatsapp user located in the united states or canada, the \"special arbitration provision for united states or canada users\" section below applies to you."
+  },
+  {
+   "segmentId": "S73",
+   "category": "arbitration",
+   "text": "the following provisions will survive any termination of your relationship with whatsapp: \"licenses,\" \"disclaimers,\" \"limitation of liability,\" \"indemnification,\" \"dispute resolution,\" \"availability and termination of our services,\" \"other,\" and \"special arbitration provision for united states or canada users.\""
+  },
+  {
+   "segmentId": "S90",
+   "category": "data_sharing",
+   "text": "all of our rights and obligations under our terms are freely assignable by us to any of our affiliates or in connection with a merger, acquisition, restructuring, or sale of assets, or by operation of law or otherwise, and we may transfer your information to any of our affiliates, successor entities, or new owner."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 98,
+  "segmentsAnalyzed": 98,
+  "charsTotal": 17777,
+  "charsAnalyzed": 17777,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 1
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 12 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S4\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"low\",\n      \"quote\": \"you agree to our terms of service (\\\"terms\\\") by installing, accessing, or using our apps, services, features, software, or website (together, \\\"services\\\").\",\n      \"explanation_tr\": \"Hizmetleri kullanmak veya yüklemek, bu koşulları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S8\",\n      \"category\": \"arbitration\",\n      \"severity\": \"high\",\n      \"quote\": \"whatsapp and you agree to resolve all disputes through binding individual arbitration, which means that you waive any right to have those disputes decided by a judge or jury, and that you waive your right to participate in class actions, class arbitrations, or representative actions.\",\n      \"explanation_tr\": \"ABD ve Kanada'daki kullanıcılar için uyuşmazlıklar mahkemede değil, bağlayıcı tahkim yoluyla çözülecek ve toplu dava hakkından vazgeçilmiş sayılacaktır.\",\n      \"confidence\": 0.99\n    },\n    {\n      \"segment_id\": \"S24\",\n      \"category\": \"data_sharing\",\n      \"severity\": \"medium\",\n      \"quote\": \"you agree to our data practices, including the collection, use, processing, and sharing of your information as described in our privacy policy, as well as the transfer and processing of your information to the united states and other countries globally\",\n      \"explanation_tr\": \"Bilgilerinizin gizlilik politikasına uygun olarak toplanmasını, işlenmesini ve Amerika Birleşik Devletleri dahil küresel çapta aktarılmasını kabul etmiş olursunuz.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S41\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"you grant whatsapp a worldwide, non-exclusive, royalty-free, sublicensable, and transferable license to use, reproduce, distribute, create derivative works of, display, and perform the information (including the content) that you upload, submit, store, send, or receive\",\n      \"explanation_tr\": \"Yüklediğiniz veya paylaştığınız içerikler üzerinde şirkete dünya çapında, telifsiz ve alt lisanslanabilir geniş bir kullanım hakkı vermiş olursunuz.\",\n      \"confidence\": 0.99\n    },\n    {\n      \"segment_id\": \"S51\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"we are providing our services on an \\\"as is\\\" basis without any express or implied warranties, including, but not limited to, warranties of merchantability, fitness for a particular purpose\",\n      \"explanation_tr\": \"Hizmetler 'olduğu gibi' sunulmakta olup, her türlü zımni garanti ve sorumluluk reddedilmektedir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S58\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"our aggregate liability relating to, arising out of, or in any way in connection with our terms, us, or our services will not exceed the greater of one hundred dollars ($ 100) or the amount you have paid us in the past twelve months.\",\n      \"explanation_tr\": \"Şirketin olası zararlar için toplam sorumluluğu çok düşük bir tutarla sınırlandırılmıştır.\",\n      \"confidence\": 0.98\n    },\n    {\n      \"segment_id\": \"S62\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"medium\",\n      \"quote\": \"you agree to defend, indemnify, and hold harmless the whatsapp parties from and against all liabilities, damages, losses, and expenses of any kind (including reasonable legal fees and costs) relating to, arising out of, or in any way in connection with any of the following: (a) your access to or use of our services\",\n      \"explanation_tr\": \"Hizmetleri kullanımınızdan kaynaklanan her türlü zarar ve masrafa karşı şirketi tazmin etmeyi kabul edersiniz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S66\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"you agree that you will resolve any claim you have with us ... exclusively in the united states district court for the northern district of california or a state court located in san mateo county in california\",\n      \"explanation_tr\": \"Uyuşmazlıkların çözümünde yalnızca Kaliforniya'daki mahkemeler yetkili kılınmıştır.\",\n      \"confidence\": 0.99\n    },\n    {\n      \"segment_id\": \"S67\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"the laws of the state of california govern our terms, as well as any disputes, whether in court or arbitration, which might arise between whatsapp and you\",\n      \"explanation_tr\": \"Sözleşme ve çıkabilecek uyuşmazlıklar Kaliforniya eyaleti kanunlarına tabidir.\",\n      \"confidence\": 0.99\n    },\n    {\n      \"segment_id\": \"S72\",\n      \"category\": \"unilateral_termination\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may modify, suspend, or terminate your access to or use of our services anytime for any reason\",\n      \"explanation_tr\": \"Şirket, herhangi bir gerekçeyle hizmetlere erişiminizi askıya alabilir veya sonlandırabilir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S87\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"high\",\n      \"quote\": \"your continued use of our services confirms your acceptance of our terms, as amended.\",\n      \"explanation_tr\": \"Şartlarda yapılan değişikliklerden sonra hizmetleri kullanmaya devam etmeniz, yeni şartları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.98\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 1461,
+    "prompt_tokens": 5125,
+    "total_tokens": 6586
+   },
+   "durationMs": 4177
+  }
+ ]
+}

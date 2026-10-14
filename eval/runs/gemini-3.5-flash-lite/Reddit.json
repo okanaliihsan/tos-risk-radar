@@ -1,0 +1,244 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/Reddit",
+ "title": "Reddit Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:23.583Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "high",
+    "count": 2,
+    "points": 22
+   },
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "unilateral_termination",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S35",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works from, distribute, perform, and display your content",
+   "context": "when your content is created with or submitted to the services, you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works from, distribute, perform, and display your content and any name, username, voice, or likeness provided in connection with your content in all media formats and channels now known or later developed.",
+   "explanationTr": "Paylaştığınız içerikler üzerinde şirkete dünya çapında, ücretsiz ve süresiz bir kullanım ve dağıtım lisansı vermiş olursunuz.",
+   "confidence": 0.98,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S87",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "you agree to defend, indemnify, and hold us, our licensors, our third party service providers and our officers, employees, licensors, and agents (the \"reddit entities\") harmless, including costs and attorneys ' fees, from any claim or demand made by any third party",
+   "context": "except to the extent prohibited by law, you agree to defend, indemnify, and hold us, our licensors, our third party service providers and our officers, employees, licensors, and agents (the \"reddit entities\") harmless, including costs and attorneys ' fees, from any claim or demand made by any third party due to or arising out of (a) your use of the services, (b) your violation of these terms, (c) your violation of applicable laws or regulations, or (d) your content.",
+   "explanationTr": "Üçüncü tarafların size karşı açacağı davalardan doğan masraf ve avukatlık ücretlerini ödemeyi kabul edersiniz.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S93",
+   "category": "liability_limitation",
+   "severity": "high",
+   "quote": "in no event and under no theory of liability, including contract, tort, negligence, strict liability, warranty, or otherwise, will the reddit entities be liable to you for any indirect, consequential, exemplary, incidental, special, or punitive damages",
+   "context": "in no event and under no theory of liability, including contract, tort, negligence, strict liability, warranty, or otherwise, will the reddit entities be liable to you for any indirect, consequential, exemplary, incidental, special, or punitive damages, or lost profits arising from or relating to these terms or the services, including those arising from or relating to content made available on the services that is alleged to be defamatory, offensive, or illegal.",
+   "explanationTr": "Şirket, hizmetlerin kullanımından doğabilecek dolaylı veya arızi zararlardan hiçbir şekilde sorumlu tutulamaz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S100",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "all disputes related to these terms or the services will be brought solely in the federal or state courts located in san francisco, california; and you consent to personal jurisdiction in these courts.",
+   "context": "except for the government entities listed below: any claims arising out of or relating to these terms or the services will be governed by the laws of california, other than its conflict of laws rules; all disputes related to these terms or the services will be brought solely in the federal or state courts located in san francisco, california; and you consent to personal jurisdiction in these courts.",
+   "explanationTr": "Bu sözleşmeden doğan anlaşmazlıklar sadece Kaliforniya, San Francisco'daki mahkemelerde çözülecektir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S108",
+   "category": "unilateral_change",
+   "severity": "high",
+   "quote": "by continuing to access or use the services on or after the effective date of the revised terms, you agree to be bound by the revised terms.",
+   "context": "by continuing to access or use the services on or after the effective date of the revised terms, you agree to be bound by the revised terms.",
+   "explanationTr": "Şirket kuralları değiştirdiğinde, hizmeti kullanmaya devam etmeniz yeni kuralları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S8",
+   "category": "contract_by_using",
+   "severity": "medium",
+   "quote": "by accessing or using our services, you agree to be bound by these terms.",
+   "context": "by accessing or using our services, you agree to be bound by these terms.",
+   "explanationTr": "Hizmeti kullanmaya başlamanız, bu kuralları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S21",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "we reserve the right to modify, suspend, or discontinue the services (in whole or in part) at any time, with or without notice to you.",
+   "context": "we reserve the right to modify, suspend, or discontinue the services (in whole or in part) at any time, with or without notice to you.",
+   "explanationTr": "Şirket, hizmetleri önceden haber vererek veya vermeden her zaman değiştirme veya durdurma hakkını saklı tutar.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S100",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "any claims arising out of or relating to these terms or the services will be governed by the laws of california, other than its conflict of laws rules;",
+   "context": "except for the government entities listed below: any claims arising out of or relating to these terms or the services will be governed by the laws of california, other than its conflict of laws rules; all disputes related to these terms or the services will be brought solely in the federal or state courts located in san francisco, california; and you consent to personal jurisdiction in these courts.",
+   "explanationTr": "Bu sözleşme Kaliforniya eyalet yasalarına tabidir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S117",
+   "category": "unilateral_termination",
+   "severity": "medium",
+   "quote": "we may suspend or terminate your accounts, status as a moderator, or ability to access or use the services at any time for any or no reason",
+   "context": "we may suspend or terminate your accounts, status as a moderator, or ability to access or use the services at any time for any or no reason, including for a violation of these terms or our content policy.",
+   "explanationTr": "Şirket, hesabınızı veya hizmete erişiminizi herhangi bir gerekçe göstermeksizin askıya alabilir veya sonlandırabilir.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S23",
+   "category": "liability_limitation",
+   "text": "you agree that we will not be liable to you or to any third party for any modification, suspension, or discontinuation of the services or any part thereof."
+  },
+  {
+   "segmentId": "S41",
+   "category": "liability_limitation",
+   "text": "third-party content is not under our control, and we are not responsible for any of their websites, products, or services."
+  },
+  {
+   "segmentId": "S59",
+   "category": "liability_limitation",
+   "text": "we are not responsible for actions taken by the moderators."
+  },
+  {
+   "segmentId": "S89",
+   "category": "liability_limitation",
+   "text": "the services are provided \"as is\" and \"as available\" without warranties of any kind, either express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement."
+  },
+  {
+   "segmentId": "S95",
+   "category": "liability_limitation",
+   "text": "in no event will the aggregate liability of the reddit entities exceed the greater of one hundred u.s. dollars ($ 100) or any amount you paid reddit in the previous six months for the services giving rise to the claim."
+  },
+  {
+   "segmentId": "S97",
+   "category": "liability_limitation",
+   "text": "the foregoing limitation of liability will apply to the fullest extent permitted by law in the applicable jurisdiction."
+  },
+  {
+   "segmentId": "S118",
+   "category": "liability_limitation",
+   "text": "the following sections will survive any termination of these terms or of your accounts: 4 (your content), 6 (things you can not do), 10 (indemnity), 11 (disclaimers), 12 (limitation of liability), 13 (governing law and venue), 16 (termination), and 17 (miscellaneous)."
+  },
+  {
+   "segmentId": "S15",
+   "category": "content_license",
+   "text": "reddit grants you a personal, non-transferable, non-exclusive, revocable, limited license to use and access the services solely as permitted by these terms."
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 123,
+  "segmentsAnalyzed": 123,
+  "charsTotal": 18555,
+  "charsAnalyzed": 18555,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 1
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 13 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S8\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"medium\",\n      \"quote\": \"by accessing or using our services, you agree to be bound by these terms.\",\n      \"explanation_tr\": \"Hizmeti kullanmaya başlamanız, bu kuralları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S21\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"we reserve the right to modify, suspend, or discontinue the services (in whole or in part) at any time, with or without notice to you.\",\n      \"explanation_tr\": \"Şirket, hizmetleri önceden haber vererek veya vermeden her zaman değiştirme veya durdurma hakkını saklı tutar.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S35\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"you grant us a worldwide, royalty-free, perpetual, irrevocable, non-exclusive, transferable, and sublicensable license to use, copy, modify, adapt, prepare derivative works from, distribute, perform, and display your content\",\n      \"explanation_tr\": \"Paylaştığınız içerikler üzerinde şirkete dünya çapında, ücretsiz ve süresiz bir kullanım ve dağıtım lisansı vermiş olursunuz.\",\n      \"confidence\": 0.98\n    },\n    {\n      \"segment_id\": \"S87\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"you agree to defend, indemnify, and hold us, our licensors, our third party service providers and our officers, employees, licensors, and agents (the \\\"reddit entities\\\") harmless, including costs and attorneys ' fees, from any claim or demand made by any third party\",\n      \"explanation_tr\": \"Üçüncü tarafların size karşı açacağı davalardan doğan masraf ve avukatlık ücretlerini ödemeyi kabul edersiniz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S93\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"high\",\n      \"quote\": \"in no event and under no theory of liability, including contract, tort, negligence, strict liability, warranty, or otherwise, will the reddit entities be liable to you for any indirect, consequential, exemplary, incidental, special, or punitive damages\",\n      \"explanation_tr\": \"Şirket, hizmetlerin kullanımından doğabilecek dolaylı veya arızi zararlardan hiçbir şekilde sorumlu tutulamaz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S100\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"all disputes related to these terms or the services will be brought solely in the federal or state courts located in san francisco, california; and you consent to personal jurisdiction in these courts.\",\n      \"explanation_tr\": \"Bu sözleşmeden doğan anlaşmazlıklar sadece Kaliforniya, San Francisco'daki mahkemelerde çözülecektir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S100\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"any claims arising out of or relating to these terms or the services will be governed by the laws of california, other than its conflict of laws rules;\",\n      \"explanation_tr\": \"Bu sözleşme Kaliforniya eyalet yasalarına tabidir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S108\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"high\",\n      \"quote\": \"by continuing to access or use the services on or after the effective date of the revised terms, you agree to be bound by the revised terms.\",\n      \"explanation_tr\": \"Şirket kuralları değiştirdiğinde, hizmeti kullanmaya devam etmeniz yeni kuralları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S117\",\n      \"category\": \"unilateral_termination\",\n      \"severity\": \"medium\",\n      \"quote\": \"we may suspend or terminate your accounts, status as a moderator, or ability to access or use the services at any time for any or no reason\",\n      \"explanation_tr\": \"Şirket, hesabınızı veya hizmete erişiminizi herhangi bir gerekçe göstermeksizin askıya alabilir veya sonlandırabilir.\",\n      \"confidence\": 0.95\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 1144,
+    "prompt_tokens": 5447,
+    "total_tokens": 6591
+   },
+   "durationMs": 3855
+  }
+ ]
+}

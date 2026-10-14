@@ -1,0 +1,259 @@
+{
+ "schemaVersion": 1,
+ "url": "https://claudette.eval/YouTube",
+ "title": "YouTube Terms of Service",
+ "analyzedAt": "2026-10-14T07:02:27.496Z",
+ "model": "gemini-3.5-flash-lite",
+ "status": "ok",
+ "documentType": "terms_of_service",
+ "score": {
+  "value": 100,
+  "band": "very_high",
+  "bandLabel": "Çok yüksek",
+  "breakdown": [
+   {
+    "category": "content_license",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "jurisdiction",
+    "maxSeverity": "high",
+    "count": 1,
+    "points": 20
+   },
+   {
+    "category": "unilateral_change",
+    "maxSeverity": "medium",
+    "count": 3,
+    "points": 16
+   },
+   {
+    "category": "liability_limitation",
+    "maxSeverity": "medium",
+    "count": 2,
+    "points": 14
+   },
+   {
+    "category": "choice_of_law",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "content_removal",
+    "maxSeverity": "medium",
+    "count": 1,
+    "points": 12
+   },
+   {
+    "category": "contract_by_using",
+    "maxSeverity": "low",
+    "count": 1,
+    "points": 6
+   }
+  ]
+ },
+ "findings": [
+  {
+   "segmentId": "S112",
+   "category": "jurisdiction",
+   "severity": "high",
+   "quote": "you and youtube agree to submit to the exclusive jurisdiction of the courts of england to resolve any legal matter",
+   "context": "you and youtube agree to submit to the exclusive jurisdiction of the courts of england to resolve any legal matter arising from the terms.",
+   "explanationTr": "Olası yasal anlaşmazlıklar için İngiltere mahkemeleri yetkili kılınmıştır, bu da sizin için hukuki süreçleri zorlaştırabilir.",
+   "confidence": 1,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S69",
+   "category": "content_license",
+   "severity": "high",
+   "quote": "to youtube, a worldwide, non-exclusive, royalty-free, transferable licence (with right to sub-licence) to use, reproduce, distribute, prepare derivative works of, display, and perform that content",
+   "context": "a. to youtube, a worldwide, non-exclusive, royalty-free, transferable licence (with right to sub-licence) to use, reproduce, distribute, prepare derivative works of, display, and perform that content in connection with the provision of the service and otherwise in connection with the provision of the service and youtube's business, including without limitation for promoting and redistributing part or all of the service (and derivative works thereof) in any media formats and through any media channels;",
+   "explanationTr": "Yüklediğiniz içerikler için YouTube'a dünya çapında, telifsiz ve geniş kapsamlı bir kullanım lisansı vermiş olursunuz.",
+   "confidence": 0.95,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S111",
+   "category": "choice_of_law",
+   "severity": "medium",
+   "quote": "the terms, and your relationship with youtube under the terms, shall be governed by english law.",
+   "context": "14.6 the terms, and your relationship with youtube under the terms, shall be governed by english law.",
+   "explanationTr": "Bu sözleşme İngiliz hukukuna tabidir, bu da olası anlaşmazlıklarda İngiltere kanunlarının geçerli olacağı anlamına gelir.",
+   "confidence": 1,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S14",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "youtube reserves the right to make changes the terms from time to time",
+   "context": "youtube reserves the right to make changes the terms from time to time, for example to address changes to the law or regulatory changes or changes to functionality offered through the service.",
+   "explanationTr": "YouTube, bildirimde bulunarak veya bulunmayarak şartları tek taraflı olarak değiştirebilir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S46",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "you acknowledge and agree that the form and nature of the service which youtube provides may change from time to time without prior notice to you.",
+   "context": "you acknowledge and agree that the form and nature of the service which youtube provides may change from time to time without prior notice to you.",
+   "explanationTr": "YouTube, hizmetin yapısını ve içeriğini önceden haber vermeden değiştirebilir.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S65",
+   "category": "content_removal",
+   "severity": "medium",
+   "quote": "youtube reserves the right (but shall have no obligation) to decide whether content complies with the content requirements set out in these terms and may remove such content and/or terminate a user's access",
+   "context": "7.8 on becoming aware of any potential violation of these terms, youtube reserves the right (but shall have no obligation) to decide whether content complies with the content requirements set out in these terms and may remove such content and/or terminate a user's access for uploading content which is in violation of these terms at any time, without prior notice and at its sole discretion.",
+   "explanationTr": "YouTube, yüklediğiniz içerikleri herhangi bir bildirim yapmaksızın kaldırabilir veya hesabınızı askıya alabilir.",
+   "confidence": 0.9,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S89",
+   "category": "liability_limitation",
+   "severity": "medium",
+   "quote": "the service is provided \"as is\" and youtube makes no warranty or representation to you with respect to them.",
+   "context": "12.2 the service is provided \"as is\" and youtube makes no warranty or representation to you with respect to them.",
+   "explanationTr": "Hizmet olduğu gibi sunulur ve YouTube herhangi bir garanti vermez.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S97",
+   "category": "liability_limitation",
+   "severity": "medium",
+   "quote": "youtube shall not be liable to you for: a. any indirect or consequential losses which may be incurred by you.",
+   "context": "13.2 subject to the overall provision in paragraph 13.1 above youtube shall not be liable to you for: a. any indirect or consequential losses which may be incurred by you.",
+   "explanationTr": "YouTube, yaşayabileceğiniz dolaylı zararlardan sorumlu tutulamaz.",
+   "confidence": 0.9,
+   "ruleAgreement": true,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S105",
+   "category": "unilateral_change",
+   "severity": "medium",
+   "quote": "you agree that youtube may provide you with notices, including those regarding changes to the terms",
+   "context": "14.2 you agree that youtube may provide you with notices, including those regarding changes to the terms, by email, regular mail, or postings on the service.",
+   "explanationTr": "YouTube, şartlarda yapacağı değişiklikleri size e-posta veya site üzerinden bildireceğini belirtiyor.",
+   "confidence": 0.9,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  },
+  {
+   "segmentId": "S10",
+   "category": "contract_by_using",
+   "severity": "low",
+   "quote": "you can accept the terms by simply using the service.",
+   "context": "2.2 you can accept the terms by simply using the service.",
+   "explanationTr": "Hizmeti kullanmak, bu şartları kabul ettiğiniz anlamına gelir.",
+   "confidence": 0.95,
+   "ruleAgreement": false,
+   "segmentCorrected": false
+  }
+ ],
+ "uncertain": [],
+ "rejected": [],
+ "possiblyMissed": [
+  {
+   "segmentId": "S60",
+   "category": "liability_limitation",
+   "text": "youtube does not endorse any content or any opinion, recommendation, or advice expressed therein, and youtube expressly disclaims any and all liability in connection with content."
+  },
+  {
+   "segmentId": "S79",
+   "category": "liability_limitation",
+   "text": "10.2 you acknowledge and agree that youtube is not responsible for the availability of any such external sites or resources, and does not endorse any advertising, products or other materials on or available from such web sites or resources."
+  },
+  {
+   "segmentId": "S80",
+   "category": "liability_limitation",
+   "text": "10.3 you acknowledge and agree that youtube is not liable for any loss or damage which may be incurred by you as a result of the availability of those external sites or resources, or as a result of any reliance placed by you on the completeness, accuracy or existence of any advertising, products or other materials on, or available from, such web sites or resources."
+  },
+  {
+   "segmentId": "S18",
+   "category": "unilateral_change",
+   "text": "your continued use of the service after the date the modified terms are posted will constitute your acceptance of the modified terms."
+  },
+  {
+   "segmentId": "S70",
+   "category": "content_license",
+   "text": "b. to each user of the service, a worldwide, non-exclusive, royalty-free licence to access your content through the service, and to use, reproduce, distribute, prepare derivative works of, display and perform such content to the extent permitted by the functionality of the service and under these terms."
+  },
+  {
+   "segmentId": "S85",
+   "category": "unilateral_termination",
+   "text": "11.3 youtube may at any time terminate its legal agreement with you if: a.you have breached any provision of the terms (or have acted in manner which clearly shows that you do not intend to, or are unable to comply with the provisions of the terms); or b. youtube is required to do so by law (for example, where the provision of the service to you is, or becomes, unlawful); or"
+  }
+ ],
+ "security": {
+  "hiddenBlocks": 0,
+  "restoredHidden": 0,
+  "cloakedBlocks": [],
+  "quarantinedSegments": [],
+  "suspicious": [],
+  "modelReported": []
+ },
+ "coverage": {
+  "segmentsTotal": 113,
+  "segmentsAnalyzed": 113,
+  "charsTotal": 20928,
+  "charsAnalyzed": 20928,
+  "truncated": false,
+  "failedChunks": 0,
+  "chunks": 2
+ },
+ "confidence": {
+  "level": "medium",
+  "reasons": [
+   "Kural tabanlı tarama, modelin raporlamadığı 6 olası madde buldu."
+  ]
+ },
+ "disclaimer": "Bu rapor otomatik olarak üretilmiştir ve hukuki tavsiye değildir. Önemli kararlar için metnin aslını okuyun ve gerekirse bir hukukçuya danışın.",
+ "errors": [],
+ "trace": [
+  {
+   "chunk": 0,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S10\",\n      \"category\": \"contract_by_using\",\n      \"severity\": \"low\",\n      \"quote\": \"you can accept the terms by simply using the service.\",\n      \"explanation_tr\": \"Hizmeti kullanmak, bu şartları kabul ettiğiniz anlamına gelir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S14\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"youtube reserves the right to make changes the terms from time to time\",\n      \"explanation_tr\": \"YouTube, bildirimde bulunarak veya bulunmayarak şartları tek taraflı olarak değiştirebilir.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S46\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"you acknowledge and agree that the form and nature of the service which youtube provides may change from time to time without prior notice to you.\",\n      \"explanation_tr\": \"YouTube, hizmetin yapısını ve içeriğini önceden haber vermeden değiştirebilir.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S65\",\n      \"category\": \"content_removal\",\n      \"severity\": \"medium\",\n      \"quote\": \"youtube reserves the right (but shall have no obligation) to decide whether content complies with the content requirements set out in these terms and may remove such content and/or terminate a user's access\",\n      \"explanation_tr\": \"YouTube, yüklediğiniz içerikleri herhangi bir bildirim yapmaksızın kaldırabilir veya hesabınızı askıya alabilir.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S69\",\n      \"category\": \"content_license\",\n      \"severity\": \"high\",\n      \"quote\": \"to youtube, a worldwide, non-exclusive, royalty-free, transferable licence (with right to sub-licence) to use, reproduce, distribute, prepare derivative works of, display, and perform that content\",\n      \"explanation_tr\": \"Yüklediğiniz içerikler için YouTube'a dünya çapında, telifsiz ve geniş kapsamlı bir kullanım lisansı vermiş olursunuz.\",\n      \"confidence\": 0.95\n    },\n    {\n      \"segment_id\": \"S89\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"medium\",\n      \"quote\": \"the service is provided \\\"as is\\\" and youtube makes no warranty or representation to you with respect to them.\",\n      \"explanation_tr\": \"Hizmet olduğu gibi sunulur ve YouTube herhangi bir garanti vermez.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S97\",\n      \"category\": \"liability_limitation\",\n      \"severity\": \"medium\",\n      \"quote\": \"youtube shall not be liable to you for: a. any indirect or consequential losses which may be incurred by you.\",\n      \"explanation_tr\": \"YouTube, yaşayabileceğiniz dolaylı zararlardan sorumlu tutulamaz.\",\n      \"confidence\": 0.9\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 783,
+    "prompt_tokens": 5609,
+    "total_tokens": 6392
+   },
+   "durationMs": 2819
+  },
+  {
+   "chunk": 1,
+   "attempt": 0,
+   "mode": "json_schema",
+   "model": "gemini-3.5-flash-lite",
+   "rawText": "{\n  \"document_type\": \"terms_of_service\",\n  \"findings\": [\n    {\n      \"segment_id\": \"S105\",\n      \"category\": \"unilateral_change\",\n      \"severity\": \"medium\",\n      \"quote\": \"you agree that youtube may provide you with notices, including those regarding changes to the terms\",\n      \"explanation_tr\": \"YouTube, şartlarda yapacağı değişiklikleri size e-posta veya site üzerinden bildireceğini belirtiyor.\",\n      \"confidence\": 0.9\n    },\n    {\n      \"segment_id\": \"S111\",\n      \"category\": \"choice_of_law\",\n      \"severity\": \"medium\",\n      \"quote\": \"the terms, and your relationship with youtube under the terms, shall be governed by english law.\",\n      \"explanation_tr\": \"Bu sözleşme İngiliz hukukuna tabidir, bu da olası anlaşmazlıklarda İngiltere kanunlarının geçerli olacağı anlamına gelir.\",\n      \"confidence\": 1.0\n    },\n    {\n      \"segment_id\": \"S112\",\n      \"category\": \"jurisdiction\",\n      \"severity\": \"high\",\n      \"quote\": \"you and youtube agree to submit to the exclusive jurisdiction of the courts of england to resolve any legal matter\",\n      \"explanation_tr\": \"Olası yasal anlaşmazlıklar için İngiltere mahkemeleri yetkili kılınmıştır, bu da sizin için hukuki süreçleri zorlaştırabilir.\",\n      \"confidence\": 1.0\n    }\n  ],\n  \"suspicious_instructions\": []\n}",
+   "errors": [],
+   "usage": {
+    "completion_tokens": 364,
+    "prompt_tokens": 1461,
+    "total_tokens": 1825
+   },
+   "durationMs": 1843
+  }
+ ]
+}
